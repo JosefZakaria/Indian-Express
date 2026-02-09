@@ -11,7 +11,6 @@ const navItems = [
   { labelKey: 'nav.eveningMenu', href: '/evening-menu', cta: false },
   { labelKey: 'nav.dailyLunch', href: '/daily-lunch', cta: false },
   { labelKey: 'nav.weeklyLunch', href: '/weekly-lunch', cta: false },
-  { labelKey: 'nav.foodMenu', href: '/food-menu', cta: false },
   { labelKey: 'nav.drinkMenu', href: '/drink-menu', cta: false },
   { labelKey: 'nav.bookTable', href: ORDER_YOYO_URL, cta: true },
   { labelKey: 'nav.takeaway', href: ORDER_YOYO_URL, cta: true },
