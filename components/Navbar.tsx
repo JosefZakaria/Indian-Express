@@ -5,19 +5,22 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { t } from '@/lib/utils';
 
-const ORDER_YOYO_URL = 'https://indianexpress.orderyoyo.com/';
+const deliveryHref = 'https://indianexpress.orderyoyo.com/delivery';
+const bookTableHref = 'https://indianexpress.orderyoyo.com/table-reservation';
+const takeawayHref = 'https://indianexpress.orderyoyo.com/takeaway';
 
 const navItems = [
   { labelKey: 'nav.eveningMenu', href: '/evening-menu', cta: false },
   { labelKey: 'nav.dailyLunch', href: '/daily-lunch', cta: false },
   { labelKey: 'nav.weeklyLunch', href: '/weekly-lunch', cta: false },
   { labelKey: 'nav.drinkMenu', href: '/drink-menu', cta: false },
-  { labelKey: 'nav.bookTable', href: ORDER_YOYO_URL, cta: true },
-  { labelKey: 'nav.takeaway', href: ORDER_YOYO_URL, cta: true },
-  { labelKey: 'nav.delivery', href: ORDER_YOYO_URL, cta: true },
+  { labelKey: 'nav.bookTable', href: bookTableHref, cta: true },
+  { labelKey: 'nav.takeaway', href: takeawayHref, cta: true },
+  { labelKey: 'nav.delivery', href: deliveryHref, cta: true },
   { labelKey: 'nav.catering', href: '/catering', cta: false },
   { labelKey: 'nav.aboutUs', href: '#content', cta: false },
   { labelKey: 'nav.findUs', href: '#content', cta: false },
+  { labelKey: 'nav.home', href: '', cta: false },
 ];
 
 function MenuIcon({ open }: { open: boolean }) {
@@ -74,9 +77,10 @@ export default function Navbar({ locale, dict }: NavbarProps) {
   return (
     <>
       <button
+        key={pathname}
         type="button"
         onClick={() => setMenuOpen((v) => !v)}
-        className="fixed right-5 top-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-burgundy/90 text-white shadow-lg transition hover:bg-burgundy focus:outline-none focus:ring-2 focus:ring-burgundy focus:ring-offset-2 focus:ring-offset-baby-pink"
+        className="fixed right-5 top-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-burgundy text-white shadow-[0_4px_20px_rgba(132,55,62,0.35)] transition-all duration-200 hover:shadow-[0_6px_24px_rgba(132,55,62,0.4)] hover:bg-burgundy/95 focus:outline-none focus:ring-2 focus:ring-burgundy focus:ring-offset-2 focus:ring-offset-baby-pink animate-header-in"
         aria-label={t(dict, 'nav.menu')}
         aria-expanded={menuOpen}
       >
@@ -86,12 +90,12 @@ export default function Navbar({ locale, dict }: NavbarProps) {
       {menuOpen && (
         <>
           <div
-            className="fixed inset-0 z-40 bg-gray-900/60 backdrop-blur-sm"
+            className="fixed inset-0 z-40 bg-gray-900/60 backdrop-blur-sm animate-nav-overlay"
             onClick={closeMenu}
             aria-hidden
           />
           <div
-            className="fixed inset-0 z-50 flex items-center justify-center p-6"
+            className="fixed inset-0 z-50 flex items-center justify-center p-6 animate-nav-content"
             role="dialog"
             aria-label={t(dict, 'nav.menu')}
             onClick={closeMenu}
@@ -101,8 +105,12 @@ export default function Navbar({ locale, dict }: NavbarProps) {
               onClick={(e) => e.stopPropagation()}
             >
               <ul className="flex flex-col gap-0.5">
-                {navItems.map((item) => (
-                  <li key={item.labelKey}>
+                {navItems.map((item, index) => (
+                  <li
+                    key={item.labelKey}
+                    className="animate-nav-item"
+                    style={{ animationDelay: `${index * 45}ms` }}
+                  >
                     {item.cta ? (
                       <a
                         href={item.href}
@@ -133,14 +141,19 @@ export default function Navbar({ locale, dict }: NavbarProps) {
                   </li>
                 ))}
               </ul>
-              <span className="my-3 h-px w-12 bg-white/40" aria-hidden />
-              <Link
-                href={langHref}
-                className="block px-6 py-2 text-lg text-white/90 transition hover:text-white hover:underline underline-offset-4"
-                onClick={closeMenu}
+              <div
+                className="animate-nav-item flex flex-col items-center"
+                style={{ animationDelay: `${navItems.length * 45}ms` }}
               >
-                {locale === 'sv' ? 'English (EN)' : 'Svenska (SV)'}
-              </Link>
+                <span className="my-3 h-px w-12 bg-white/40" aria-hidden />
+                <Link
+                  href={langHref}
+                  className="block px-6 py-2 text-lg text-white/90 transition hover:text-white hover:underline underline-offset-4"
+                  onClick={closeMenu}
+                >
+                  {locale === 'sv' ? 'English (EN)' : 'Svenska (SV)'}
+                </Link>
+              </div>
             </nav>
           </div>
         </>

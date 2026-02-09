@@ -1,0 +1,264 @@
+{
+  "drinkMenu": {
+    "sections": {
+      "alkoholfritt": {
+        "title": "NON-ALCOHOLIC",
+        "note": "",
+        "items": {
+          "cola-mix": { "name": "Cola | Cola zero | Fanta | Sprite | Pepsi Max", "description": "" },
+          "juice-mix": { "name": "Juice | Mango | Passion | Cranberry | Orange", "description": "" },
+          "mango-lassi": { "name": "Mango lassi - yoghurt | mango purée", "description": "" },
+          "vegan-mango-lassi": { "name": "Vegan Mango Lassi - oat yoghurt | mango purée | mango juice", "description": "" },
+          "redbull": { "name": "Red Bull, 25 cl", "description": "" }
+        }
+      },
+      "alkoholfri-ol": {
+        "title": "ALCOHOL-FREE BEER",
+        "note": "",
+        "items": {
+          "heineken-0": { "name": "Heineken, 33 cl", "description": "" },
+          "ship-ipa-0": { "name": "A Ship Full of IPA, 33 cl", "description": "" }
+        }
+      },
+      "cider-ol-fat": {
+        "title": "CIDER/BEER ON TAP",
+        "note": "40cl | 50cl",
+        "items": {
+          "briska": { "name": "Briska pear cider, 4.5%", "description": "" },
+          "norrlands-guld": { "name": "Norrlands Guld, 5.3%", "description": "" },
+          "heineken-fat": { "name": "Heineken, 5.0%", "description": "" },
+          "krusovice": { "name": "Krusovice, 5.0%", "description": "" },
+          "ship-ipa-fat": { "name": "A Ship Full of IPA, 5.8%", "description": "" },
+          "1664-blanc": { "name": "1664 blanc, 5.0%", "description": "" },
+          "eriksberg": { "name": "Eriksberg Karaktär, 5.4%", "description": "" }
+        }
+      },
+      "cider-ol-flaska": {
+        "title": "CIDER/BEER IN BOTTLE",
+        "note": "",
+        "items": {
+          "briska-blabar": { "name": "Briska, blueberry raspberry, 33 cl", "description": "" },
+          "carlsberg-hof": { "name": "Carlsberg Hof, 33 cl", "description": "" },
+          "sol": { "name": "Sol, 33 cl", "description": "" },
+          "sitting-bulldog": { "name": "Sitting Bulldog IPA, 33 cl", "description": "" },
+          "ginger-joe": { "name": "Ginger Joe, 33 cl", "description": "" },
+          "daura-damm": { "name": "Daura Damm, gluten-free, 33 cl", "description": "" },
+          "tuborg-guld": { "name": "Tuborg Gold, 50 cl", "description": "" },
+          "mariestads": { "name": "Mariestads Export, 50 cl", "description": "" },
+          "old-ox": { "name": "Old Ox, 50 cl", "description": "" },
+          "paulaner": { "name": "Paulaner, 50 cl", "description": "" },
+          "kingfisher": { "name": "Kingfisher, Indian, 33 cl", "description": "" },
+          "cobra": { "name": "Cobra, Indian, 66 cl", "description": "" },
+          "smirnoff-ice": { "name": "Smirnoff Ice, 27.5 cl", "description": "" }
+        }
+      },
+      "rott": {
+        "title": "RED WINE",
+        "note": "",
+        "items": {
+          "maximo-tinto": {
+            "name": "Maximo Tinto, Spain",
+            "description": "Medium-bodied, fairly soft wine with ripe tannins and notes of mint, liquorice, and red berries such as raspberry and strawberry."
+          },
+          "la-primizia": {
+            "name": "La primizia Vino Rosso, Italy",
+            "description": "Light, berry-forward with soft grip and refreshing acidity. Forest raspberry, strawberry compote and cherry liqueur, with pine nut, cedar, cherry stone and cinnamon on the finish."
+          },
+          "valpolicella": {
+            "name": "Valpolicella Ripasso, Italy",
+            "description": "Medium-bodied wine with flavours of dark fruit, chocolate and a touch of almond. Silky tannins and a long, slightly warm finish."
+          }
+        }
+      },
+      "vitt": {
+        "title": "WHITE WINE",
+        "note": "",
+        "items": {
+          "maximo-blanco": {
+            "name": "Maximo Blanco, Spain",
+            "description": "Dry, light wine with an appetising fresh acidity and fruity flavour with hints of citrus and a touch of mineral."
+          },
+          "mehrlein-riesling": {
+            "name": "Mehrlein Riesling Dry, Germany",
+            "description": "Classic Riesling with fresh flavours of citrus, green apple, grapefruit, peach and minerals."
+          }
+        }
+      },
+      "rose": {
+        "title": "ROSÉ",
+        "note": "",
+        "items": {
+          "barefoot-white-zinfandel": {
+            "name": "Barefoot White Zinfandel, USA",
+            "description": "Fresh, delightful flavour of crushed strawberries, raspberries, sun-ripened pears and juicy pineapple. A very fruity wine with some sweetness and a crisp finish."
+          },
+          "santiago-assinatura": {
+            "name": "Santiago Assinatura de Familia, Portugal",
+            "description": "Fresh and sweet-fruity with a slight spritz. Notes of sweet strawberries, raspberries and red currants with a pleasant sweetness and refreshing acidity. Pairs well with mildly spiced fish or chicken dishes."
+          }
+        }
+      },
+      "whiskey-rom-cognac": {
+        "title": "WHISKEY | RUM | COGNAC",
+        "note": "",
+        "items": {
+          "jameson": { "name": "Jameson", "description": "" },
+          "famous-grouse": { "name": "Famous Grouse", "description": "" },
+          "jim-beam": { "name": "Jim Beam", "description": "" },
+          "jack-daniels": { "name": "Jack Daniels", "description": "" },
+          "black-label": { "name": "Black Label", "description": "" },
+          "gronstedt-monopole": { "name": "Grönstedt Monopole", "description": "" },
+          "laphroaig": { "name": "Laphroaig", "description": "" },
+          "macallan": { "name": "Macallan", "description": "" },
+          "zacapa": { "name": "Zacapa", "description": "" },
+          "diplomatico": { "name": "Diplomatico", "description": "" }
+        }
+      }
+    }
+  },
+  "eveningMenu": {
+    "sections": {
+      "smaratter": {
+        "title": "STARTERS",
+        "note": "",
+        "items": {
+          "papadam": { "name": "Papadam, vegan", "description": "Crispy lentil bread | mango chutney" },
+          "veg-samosa": { "name": "Veg Samosa, vegan", "description": "Vegetable-filled pastry | red cabbage salad | tamarind and chilli chutney" },
+          "onion-bhaaje": { "name": "Onion Bhaaje", "description": "Fried onion fritters with herbs and spices | red cabbage salad | mint coriander chilli and yoghurt chutney" },
+          "zucchini-cauliflower-pakora": { "name": "Zucchini & Cauliflower Pakora, vegan", "description": "Fried zucchini and cauliflower in spiced batter | red cabbage salad | coriander | tamarind and chilli chutney" },
+          "chicken-samosa": { "name": "Chicken Samosa", "description": "Two chicken-filled pastry parcels | red cabbage salad | mint yoghurt chutney" },
+          "chicken-roll": { "name": "Chicken Roll", "description": "Butter-fried paratha | tandoori grilled chicken fillet | onion | pepper | red cabbage salad | aioli" },
+          "king-prawn-roll": { "name": "King Prawn Roll", "description": "Butter-fried paratha | pan-fried tiger prawns | onion | pepper | red cabbage salad | aioli" },
+          "chicken-tikka": { "name": "Chicken Tikka", "description": "Butter-fried tandoori grilled chicken fillet | onion | pepper. Served on a cast-iron skillet" },
+          "seekh-kebab": { "name": "Seekh kebab", "description": "Minced beef marinated in onion, garlic, ginger and Indian spices. Served with salad, mint and coriander chutney" },
+          "chicken-tikka-naan": { "name": "Chicken Tikka Naan", "description": "Naan filled with tandoori grilled chicken fillet | potato | chilli | coriander | mint coriander chilli and yoghurt chutney" },
+          "prawn-puri": { "name": "Prawn Puri", "description": "Spiced black tiger prawns | onion | pepper | butter-fried paratha | mint and yoghurt chutney" },
+          "king-prawn": { "name": "King Prawn", "description": "Grilled black tiger prawns | onion | pepper. Served on a hot cast-iron skillet" }
+        }
+      },
+      "naan": {
+        "title": "NAAN - TRADITIONAL INDIAN BREAD",
+        "note": "",
+        "items": {
+          "plain-naan": { "name": "Plain Naan, vegan", "description": "" },
+          "garlic-naan": { "name": "Garlic Naan, with garlic vegan", "description": "" },
+          "butter-naan": { "name": "Butter Naan, with ghee", "description": "" },
+          "peshwari-naan": { "name": "Peshwari Naan, with almond and coconut vegan", "description": "" },
+          "butter-paneer-naan": { "name": "Butter Paneer Naan, with paneer and ghee", "description": "" },
+          "chilli-paneer-naan": { "name": "Chilli Paneer Naan, with paneer and chilli", "description": "" },
+          "garlic-paneer-naan": { "name": "Garlic Paneer Naan, with paneer and garlic", "description": "" },
+          "paratha": { "name": "Paratha, fried in butter", "description": "" }
+        }
+      },
+      "kockens-favoriter": {
+        "title": "CHEF'S FAVOURITES",
+        "note": "All main courses served with pulao rice",
+        "items": {
+          "chicken-lamb-tikka-masala": { "name": "Chicken/Lamb Tikka Masala, mild", "description": "Tandoori grilled chicken/lamb fillet | butter | cream | coconut | almond | raisins" },
+          "butter-chicken-lamb": { "name": "Butter Chicken/Lamb, hot", "description": "Tandoori grilled chicken/lamb fillet | butter | tomato | cream | coriander" },
+          "hot-chili-chicken-lamb": { "name": "Hot Chilli Chicken/Lamb, sweet & spicy", "description": "Tandoori grilled chicken/lamb fillet | chilli | onion | pepper | coriander | sweet chilli sauce" },
+          "tandoori-chicken-lamb-masala": { "name": "Tandoori Chicken/Lamb Masala, hot", "description": "Tandoori grilled chicken or lamb | yoghurt | tomato | onion | pepper | coriander" },
+          "chicken-lamb-tikka-jalfrezi": { "name": "Chicken/Lamb Tikka Jalfrezi, very hot", "description": "Tandoori grilled chicken/lamb fillet | onion | pepper | chilli | coriander" },
+          "chicken-lamb-tikka-karai": { "name": "Chicken/Lamb Tikka Karai, medium hot", "description": "Tandoori grilled lamb fillet in garlic marinade in a pan with fresh spices | onion | pepper | tomato | ginger | coriander. Served on a hot cast-iron skillet" },
+          "chicken-lasuni-karai": { "name": "Chicken Lasuni Karai, medium hot", "description": "Tandoori grilled chicken fillet in garlic marinade in a pan with fresh spices | onion | pepper | tomato | ginger | coriander. Served on a hot cast-iron skillet" },
+          "chicken-lamb-tikka-balti": { "name": "Chicken/Lamb Tikka Balti, hot", "description": "Tandoori grilled chicken fillet with balti paste | cream | ginger | garlic | tomato | coriander | onion | pepper | potato." },
+          "chicken-lasuni-balti": { "name": "Chicken Lasuni Balti, hot", "description": "Tandoori grilled chicken fillet in garlic marinade in a creamy pan with balti paste | cream | ginger | garlic | tomato | coriander | onion | pepper | potato" }
+        }
+      },
+      "tandoori-sizlar": {
+        "title": "TANDOORI SIZZLERS",
+        "note": "Marinated then grilled in clay oven | fried in butter | onion | pepper. Served on a hot cast-iron skillet. Served with tomato and sweet chilli sauce. Medium hot.",
+        "items": {
+          "tandoori-chicken-sizlar": { "name": "Tandoori Chicken - chicken fillet", "description": "" },
+          "chicken-tikka-sizlar": { "name": "Chicken Tikka Sizlar - chicken fillet", "description": "" },
+          "chicken-lasuni-sizlar": { "name": "Chicken Lasuni Sizlar - garlic-marinated chicken fillet", "description": "" },
+          "lamm-tikka-sizlar": { "name": "Lamb Tikka Sizlar - lamb fillet", "description": "" },
+          "king-prawn-sizlar": { "name": "King Prawn Sizlar - black tiger prawns", "description": "" },
+          "mix-sizlar": { "name": "Mix Sizlar - chicken fillet | lamb fillet | black tiger prawns", "description": "" },
+          "seekh-kebab-sizlar": { "name": "Seekh Kebab", "description": "Minced beef marinated in onion, garlic, ginger and Indian spices. Served with mint, coriander chutney and sizzler sauce." }
+        }
+      },
+      "thali": {
+        "title": "THALI",
+        "note": "Traditional plate with three different dishes. Naan | Papadam | Salad | Gulab Jamun",
+        "items": {
+          "kott-thali": { "name": "Meat Thali", "description": "Chef's choice of lamb, beef and chicken. Mild, medium and hot." },
+          "vegetarisk-thali": { "name": "Vegetarian Thali", "description": "Chef's choice of vegetables and paneer. Mild, medium and hot." }
+        }
+      },
+      "birjani": {
+        "title": "BIRYANI",
+        "note": "Rice dish with fresh spices | herbs | coriander | onion | pepper. Served with mint coriander chilli and yoghurt chutney. Medium hot.",
+        "items": {
+          "lamb-birjani": { "name": "Lamb Biryani - fried lamb fillet", "description": "" },
+          "chicken-tikka-birjani": { "name": "Chicken Tikka Biryani - grilled chicken fillet", "description": "" },
+          "king-prawn-birjani": { "name": "King Prawn Biryani - grilled black tiger prawns", "description": "" }
+        }
+      },
+      "curries": {
+        "title": "CURRIES",
+        "note": "Chicken fillet 175 kr | Paneer 175 kr | Tofu 170 kr | Beef 189 kr | Lamb stew 199 kr | Grilled lamb fillet 235 kr",
+        "items": {
+          "madras": { "name": "Madras, very hot", "description": "South Indian curry | sun-dried chilli | coriander | lemon" },
+          "vindaloo": { "name": "Vindaloo, extremely hot", "description": "House hottest curry | sun-dried chilli | Vindaloo paste | coriander" },
+          "balti-curry": { "name": "Balti, hot", "description": "Creamy curry with balti paste | cream | ginger | garlic | tomato | coriander | onion | pepper | potato" },
+          "karai-curry": { "name": "Karai, medium hot", "description": "Curry with fresh spices | onion | pepper | tomato | ginger | coriander. Served on a hot cast-iron skillet" },
+          "lime-curry": { "name": "Lime Curry, medium hot", "description": "Curry with fresh lime leaves | lemon | onion | pepper | coconut milk" },
+          "rogan-josh": { "name": "Rogan Josh, medium hot", "description": "Curry with tomato | yoghurt | onion | pepper" },
+          "curry-mango": { "name": "Mango Curry, medium hot", "description": "Creamy curry with fresh mango | cream | butter" }
+        }
+      },
+      "king-prawn": {
+        "title": "KING PRAWN - BLACK TIGER PRAWNS",
+        "note": "",
+        "items": {
+          "king-prawn-karai": { "name": "King Prawn Karai, medium hot", "description": "Curry with fresh spices | onion | pepper | tomato | ginger | coriander. Served on a hot cast-iron skillet" },
+          "king-prawn-balti": { "name": "King Prawn Balti, hot", "description": "Creamy curry with balti paste | cream | ginger | garlic | tomato | coriander | onion | pepper | potato" },
+          "tandoori-king-prawn-tikka-masala": { "name": "Tandoori King Prawn Tikka Masala, mild", "description": "Tandoori grilled black tiger prawns | butter | cream | coconut | almond | raisins" },
+          "king-prawn-madras": { "name": "King Prawn Madras, very hot", "description": "South Indian curry | sun-dried chilli | coriander | lemon" },
+          "king-prawn-butter": { "name": "King Prawn Butter, hot", "description": "Tandoori grilled black tiger prawns | butter | tomato | cream | coriander" }
+        }
+      },
+      "vegetariskt": {
+        "title": "VEGETARIAN",
+        "note": "",
+        "items": {
+          "daal-makhni": { "name": "Daal Makhni, medium hot", "description": "Black lentils in butter | cream | tomato | coriander" },
+          "tarka-daal": { "name": "Tarka Daal, medium hot vegan", "description": "Fried yellow lentils | garlic | coriander" },
+          "aloo-gobi": { "name": "Aloo Gobi, medium hot vegan", "description": "" },
+          "sag-aloo": { "name": "Saag Aloo, medium hot vegan", "description": "Spinach | potato | fresh spices | coriander" },
+          "pakora-karai": { "name": "Pakora Karai, medium hot vegan", "description": "Fried zucchini & cauliflower | onion | pepper | tomato. Served on a cast-iron skillet" },
+          "mix-veg-karai": { "name": "Mix Veg Karai, medium hot vegan", "description": "Seasonal vegetables | onion | pepper | curry. Curry with potato | cauliflower | onion | pepper | coriander" },
+          "palak-paneer": { "name": "Palak Paneer, medium hot", "description": "Spinach | homemade paneer | butter | coriander. Vegan option: tofu" },
+          "paneer-masala": { "name": "Paneer Masala, mild", "description": "Homemade paneer | butter | cream | coconut | almond | raisins. Option: tofu" },
+          "paneer-butter": { "name": "Paneer Butter, hot", "description": "Homemade paneer | butter | tomato | cream | coriander. Option: tofu" },
+          "paneer-kofta": { "name": "Paneer Kofta, medium hot", "description": "Spiced homemade spinach balls stuffed with paneer in curry sauce" }
+        }
+      },
+      "tillbehor": {
+        "title": "SIDES",
+        "note": "",
+        "items": {
+          "raita": { "name": "Raita", "description": "" },
+          "mango-chutney": { "name": "Mango chutney | tamarind - chilli chutney", "description": "" },
+          "mynta-yoghurt-chutney": { "name": "Mint - yoghurt chutney", "description": "" },
+          "mynta-koriander-chutney": { "name": "Mint - coriander chutney", "description": "" },
+          "chili-lime-pickles": { "name": "Chilli pickles | Lime pickles", "description": "" },
+          "extra-ris": { "name": "Extra rice", "description": "" },
+          "side-sallad": { "name": "Side salad", "description": "Red cabbage | coriander | carrot | lemon" },
+          "extra-sas": { "name": "Extra sauce", "description": "Masala - mild | Curry - medium hot | Madras - hot" }
+        }
+      },
+      "efter-maten": {
+        "title": "DESSERTS",
+        "note": "",
+        "items": {
+          "gulab-jamun": { "name": "Gulab Jamun", "description": "Fried dough balls in rose syrup | vanilla ice cream | berries" },
+          "malai-kulfi": { "name": "Malai Kulfi", "description": "With cream | pistachio | cardamom | cinnamon" },
+          "chokladkaka": { "name": "Chocolate cake", "description": "With vanilla ice cream | berries" },
+          "vaniljglass": { "name": "Vanilla ice cream", "description": "With Nutella | raspberry | mint" }
+        }
+      }
+    }
+  }
+}

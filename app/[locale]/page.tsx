@@ -8,24 +8,33 @@ export default async function HomePage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
-  const dict = await getDictionary(locale as 'en' | 'sv') as Record<string, unknown>;
+  const dict = (await getDictionary(locale as 'en' | 'sv')) as Record<string, unknown>;
 
   return (
     <>
       <ScrollToContent />
-      {/* Hero: background color only, centered logo placeholder */}
+      {/* Hero: background color only, centered logo – size matches the red circle reference */}
       <section className="flex min-h-screen flex-col items-center justify-center bg-baby-pink px-4">
-        <div className="text-center">
-          {/* Logo placeholder – replace with <Image src="/logo.png" ... /> when you have the asset */}
-          <h1 className="text-4xl font-bold text-gray-800 md:text-5xl lg:text-6xl">
-            {t(dict, 'home.title')}
-          </h1>
+        <div className="text-center animate-home-hero -translate-y-20">
+          <h1 className="sr-only">{t(dict, 'home.title')}</h1>
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/indian-express-logo.png"
+            alt={t(dict, 'home.title') as string}
+            className="h-[min(60vw,600px)] w-[min(60vw,600px)] object-contain"
+            width={600}
+            height={600}
+            fetchPriority="high"
+          />
         </div>
       </section>
 
       {/* Map + Om oss; Öppettider & Kontakt under the map in left column */}
       <section id="content" className="bg-baby-pink px-4 py-12 md:py-16">
-        <div className="mx-auto max-w-6xl overflow-visible md:grid md:grid-cols-[1fr_auto_1fr] md:gap-0 md:items-start">
+        <div
+          className="mx-auto max-w-6xl overflow-visible md:grid md:grid-cols-[1fr_auto_1fr] md:gap-0 md:items-start scroll-reveal"
+          data-scroll-reveal
+        >
           {/* Left column: map + Öppettider & Kontakt underneath */}
           <div className="flex flex-col gap-8">
             <div className="overflow-hidden rounded-l-xl shadow-md md:rounded-r-none">
