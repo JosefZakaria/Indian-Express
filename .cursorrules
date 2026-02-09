@@ -1,0 +1,6 @@
+Always use Tailwind CSS for styling.
+Primary background color: #fce4ec (baby pink).
+Navigation: Use a dropdown for all menu items.
+Framework: Next.js App Router with TypeScript.
+Mobile First: All components must be responsive.
+No PDFs: All menus must be rendered as clean HTML/React components.
