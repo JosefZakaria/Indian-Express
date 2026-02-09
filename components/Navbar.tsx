@@ -5,13 +5,12 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { t } from '@/lib/utils';
 
-const ORDER_YOYO_URL = 'https://www.orderyoyo.com/';
+const ORDER_YOYO_URL = 'https://indianexpress.orderyoyo.com/';
 
 const navItems = [
   { labelKey: 'nav.eveningMenu', href: '/evening-menu', cta: false },
   { labelKey: 'nav.dailyLunch', href: '/daily-lunch', cta: false },
   { labelKey: 'nav.weeklyLunch', href: '/weekly-lunch', cta: false },
-  { labelKey: 'nav.foodMenu', href: '/food-menu', cta: false },
   { labelKey: 'nav.drinkMenu', href: '/drink-menu', cta: false },
   { labelKey: 'nav.bookTable', href: ORDER_YOYO_URL, cta: true },
   { labelKey: 'nav.takeaway', href: ORDER_YOYO_URL, cta: true },
@@ -23,20 +22,20 @@ const navItems = [
 
 function MenuIcon({ open }: { open: boolean }) {
   return (
-    <span className="relative flex h-5 w-6 flex-col justify-center">
+    <span className="relative flex h-6 w-7 flex-col justify-center">
       <span
         className={`block h-0.5 w-full rounded-full bg-current transition-all duration-200 ${
-          open ? 'translate-y-[6px] rotate-45' : ''
+          open ? 'translate-y-[7px] rotate-45' : ''
         }`}
       />
       <span
-        className={`mt-1.5 block h-0.5 w-5 rounded-full bg-current transition-all duration-200 ${
+        className={`mt-2 block h-0.5 w-6 rounded-full bg-current transition-all duration-200 ${
           open ? 'opacity-0 scale-x-0' : ''
         }`}
       />
       <span
-        className={`mt-1.5 block h-0.5 w-full rounded-full bg-current transition-all duration-200 ${
-          open ? '-translate-y-[6px] -rotate-45' : ''
+        className={`mt-2 block h-0.5 w-full rounded-full bg-current transition-all duration-200 ${
+          open ? '-translate-y-[7px] -rotate-45' : ''
         }`}
       />
     </span>
@@ -77,7 +76,7 @@ export default function Navbar({ locale, dict }: NavbarProps) {
       <button
         type="button"
         onClick={() => setMenuOpen((v) => !v)}
-        className="fixed right-5 top-5 z-50 flex h-11 w-11 items-center justify-center rounded-full bg-burgundy/90 text-white shadow-lg transition hover:bg-burgundy focus:outline-none focus:ring-2 focus:ring-burgundy focus:ring-offset-2 focus:ring-offset-baby-pink"
+        className="fixed right-5 top-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-burgundy/90 text-white shadow-lg transition hover:bg-burgundy focus:outline-none focus:ring-2 focus:ring-burgundy focus:ring-offset-2 focus:ring-offset-baby-pink"
         aria-label={t(dict, 'nav.menu')}
         aria-expanded={menuOpen}
       >
@@ -98,7 +97,7 @@ export default function Navbar({ locale, dict }: NavbarProps) {
             onClick={closeMenu}
           >
             <nav
-              className="flex flex-col items-center gap-1 text-center"
+              className="flex flex-col items-center gap-1 text-center font-serif tracking-wide"
               onClick={(e) => e.stopPropagation()}
             >
               <ul className="flex flex-col gap-0.5">
@@ -109,7 +108,7 @@ export default function Navbar({ locale, dict }: NavbarProps) {
                         href={item.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="block px-6 py-3 text-lg font-medium text-white transition hover:text-white/90 hover:underline"
+                        className="block px-6 py-3 text-xl font-medium text-white/95 transition hover:text-white hover:underline underline-offset-4"
                         onClick={closeMenu}
                       >
                         {t(dict, item.labelKey)}
@@ -117,7 +116,7 @@ export default function Navbar({ locale, dict }: NavbarProps) {
                     ) : item.href === '#content' && isHome ? (
                       <button
                         type="button"
-                        className="block w-full px-6 py-3 text-lg font-medium text-white transition hover:text-white/90 hover:underline text-center"
+                        className="block w-full px-6 py-3 text-xl font-medium text-white/95 transition hover:text-white hover:underline underline-offset-4 text-center"
                         onClick={scrollToContent}
                       >
                         {t(dict, item.labelKey)}
@@ -125,7 +124,7 @@ export default function Navbar({ locale, dict }: NavbarProps) {
                     ) : (
                       <Link
                         href={getHref(item)}
-                        className="block px-6 py-3 text-lg font-medium text-white transition hover:text-white/90 hover:underline"
+                        className="block px-6 py-3 text-xl font-medium text-white/95 transition hover:text-white hover:underline underline-offset-4"
                         onClick={closeMenu}
                       >
                         {t(dict, item.labelKey)}
@@ -137,7 +136,7 @@ export default function Navbar({ locale, dict }: NavbarProps) {
               <span className="my-3 h-px w-12 bg-white/40" aria-hidden />
               <Link
                 href={langHref}
-                className="block px-6 py-2 text-base text-white/90 transition hover:text-white hover:underline"
+                className="block px-6 py-2 text-lg text-white/90 transition hover:text-white hover:underline underline-offset-4"
                 onClick={closeMenu}
               >
                 {locale === 'sv' ? 'English (EN)' : 'Svenska (SV)'}

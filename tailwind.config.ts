@@ -7,7 +7,10 @@ const config = {
     extend: {
       colors: {
         'baby-pink': '#fef7f8',
-        burgundy: '#722F37',
+        burgundy: '#86454e',
+      },
+      fontFamily: {
+        serif: ['var(--font-cormorant)', 'Georgia', 'serif'],
       },
     },
   },
