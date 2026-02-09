@@ -1,6 +1,7 @@
 {
   "nav": {
     "menu": "Menu",
+    "home": "Home",
     "eveningMenu": "Evening Menu",
     "dailyLunch": "Daily Lunch Menu",
     "weeklyLunch": "Weekly Lunch Menu",
@@ -14,7 +15,7 @@
     "findUs": "Find Us"
   },
   "home": {
-    "title": "Indian Express 2",
+    "title": "Indian Express",
     "aboutTitle": "About Us",
     "aboutText": "Indian Express is a family business that has served authentic Indian food since 2004.",
     "aboutHeading": "Indian Express",
@@ -106,7 +107,7 @@
   "foodMenu": { "title": "Food Menu" },
   "drinkMenu": { "title": "Drink Menu" },
   "eveningMenu": { "title": "Evening Menu" },
-  "catering": { "title": "Catering" },
+  "catering": { "title": "Catering", "heading1": "We offer catering for all occasions!", "heading2": "Both for private individuals and companies.", "para1": "Business lunch, Event, Mingle evening, Wedding, Christmas and New Year, Student party, Vegetarian buffet, Celebrations of all kinds.", "para2": "Everything from sensational buffets to dinners for large and small groups.", "cta": "Welcome to contact us so we can discuss something that suits your specific wishes!" },
   "about": { "title": "About Us" },
   "findUs": { "title": "Find Us" },
   "bookTable": { "title": "Book Table" },

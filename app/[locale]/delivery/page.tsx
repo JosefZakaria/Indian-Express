@@ -17,7 +17,7 @@ export default async function DeliveryPage({
       </h1>
       <p className="mb-6 text-gray-700">Order delivery via OrderYoyo.</p>
       <Link
-        href="https://www.orderyoyo.com/"
+        href="https://indianexpress.orderyoyo.com/"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block rounded-full bg-rose-600 px-6 py-3 font-medium text-white hover:bg-rose-700"

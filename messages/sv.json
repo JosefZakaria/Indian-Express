@@ -1,6 +1,7 @@
 {
   "nav": {
     "menu": "Meny",
+    "home": "Hem",
     "eveningMenu": "Kvällsmeny",
     "dailyLunch": "Dagens lunch",
     "weeklyLunch": "Veckans lunch",
@@ -14,7 +15,7 @@
     "findUs": "Hitta hit"
   },
   "home": {
-    "title": "Indian Express 2",
+    "title": "Indian Express",
     "aboutTitle": "Om oss",
     "aboutText": "Indian Express är ett familjeföretag som serverat autentisk indisk mat sedan 2004.",
     "aboutHeading": "Indian Express",
@@ -106,7 +107,7 @@
   "foodMenu": { "title": "Matmeny" },
   "drinkMenu": { "title": "Dryckesmeny" },
   "eveningMenu": { "title": "Kvällsmeny" },
-  "catering": { "title": "Catering" },
+  "catering": { "title": "Catering", "heading1": "Vi erbjuder catering för alla tillfällen!", "heading2": "Både till privatpersoner och företag.", "para1": "Företagslunch, Event, Mingelkväll, Bröllop, Jul och Nyår, Studentfest, Vegetarisk buffé, Högtidsfester av alla slag.", "para2": "Allt från sensationella bufféer till middagar för stora och små sällskap.", "cta": "Välkommen att kontakta oss så diskuterar vi fram något som passar just era önskemål!" },
   "about": { "title": "Om oss" },
   "findUs": { "title": "Hitta hit" },
   "bookTable": { "title": "Boka bord" },
