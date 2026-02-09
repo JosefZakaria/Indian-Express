@@ -2,7 +2,9 @@ import { notFound } from 'next/navigation';
 import { getDictionary } from '@/lib/i18n/get-dictionary';
 import { locales } from '@/lib/i18n/config';
 import Navbar from '@/components/Navbar';
-import HomeLink from '@/components/HomeLink';
+import HeaderLogo from '@/components/HeaderLogo';
+import PageTransition from '@/components/PageTransition';
+import ScrollRevealObserver from '@/components/ScrollRevealObserver';
 
 export default async function LocaleLayout({
   children,
@@ -13,15 +15,14 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
   if (!locales.includes(locale as 'en' | 'sv')) notFound();
-  const dict = await getDictionary(locale as 'en' | 'sv') as Record<string, unknown>;
+  const dict = (await getDictionary(locale as 'en' | 'sv')) as Record<string, unknown>;
   return (
     <>
+      <ScrollRevealObserver />
       <Navbar locale={locale} dict={dict} />
-      <main className="min-h-screen bg-baby-pink">
-        <div className="px-4 py-3">
-          <HomeLink locale={locale} dict={dict} />
-        </div>
-        {children}
+      <HeaderLogo locale={locale} dict={dict} />
+      <main className="min-h-screen bg-baby-pink pt-28 pl-4 pr-4 pb-4">
+        <PageTransition>{children}</PageTransition>
       </main>
     </>
   );

@@ -10,7 +10,10 @@ export default async function CateringPage({
   const dict = await getDictionary(locale as 'en' | 'sv') as Record<string, unknown>;
 
   return (
-    <div className="mx-auto max-w-2xl px-4 py-12 md:py-16">
+    <div
+      className="mx-auto max-w-2xl px-4 py-12 md:py-16 scroll-reveal"
+      data-scroll-reveal
+    >
       <h1 className="mb-2 text-2xl font-bold text-gray-800 md:text-3xl">
         {t(dict, 'catering.title')}
       </h1>

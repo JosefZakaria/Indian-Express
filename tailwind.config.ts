@@ -6,8 +6,8 @@ const config = {
   theme: {
     extend: {
       colors: {
-        'baby-pink': '#fef7f8',
-        burgundy: '#86454e',
+        'baby-pink': '#f1dedf',
+        burgundy: '#84373e',
       },
       fontFamily: {
         serif: ['var(--font-cormorant)', 'Georgia', 'serif'],
