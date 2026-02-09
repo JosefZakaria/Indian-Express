@@ -7,6 +7,7 @@ const config = {
     extend: {
       colors: {
         'baby-pink': '#fef7f8',
+        burgundy: '#722F37',
       },
     },
   },

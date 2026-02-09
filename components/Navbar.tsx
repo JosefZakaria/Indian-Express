@@ -17,25 +17,29 @@ const navItems = [
   { labelKey: 'nav.takeaway', href: ORDER_YOYO_URL, cta: true },
   { labelKey: 'nav.delivery', href: ORDER_YOYO_URL, cta: true },
   { labelKey: 'nav.catering', href: '/catering', cta: false },
-  { labelKey: 'nav.aboutUs', href: '/about', cta: false },
-  { labelKey: 'nav.findUs', href: '/find-us', cta: false },
+  { labelKey: 'nav.aboutUs', href: '#content', cta: false },
+  { labelKey: 'nav.findUs', href: '#content', cta: false },
 ];
 
-function MenuIcon() {
+function MenuIcon({ open }: { open: boolean }) {
   return (
-    <svg
-      width="28"
-      height="28"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden
-    >
-      <path d="M4 7h16M4 12h16M4 17h16" />
-    </svg>
+    <span className="relative flex h-5 w-6 flex-col justify-center">
+      <span
+        className={`block h-0.5 w-full rounded-full bg-current transition-all duration-200 ${
+          open ? 'translate-y-[6px] rotate-45' : ''
+        }`}
+      />
+      <span
+        className={`mt-1.5 block h-0.5 w-5 rounded-full bg-current transition-all duration-200 ${
+          open ? 'opacity-0 scale-x-0' : ''
+        }`}
+      />
+      <span
+        className={`mt-1.5 block h-0.5 w-full rounded-full bg-current transition-all duration-200 ${
+          open ? '-translate-y-[6px] -rotate-45' : ''
+        }`}
+      />
+    </span>
   );
 }
 
@@ -56,39 +60,48 @@ export default function Navbar({ locale, dict }: NavbarProps) {
 
   const closeMenu = () => setMenuOpen(false);
 
-  const langHref =
-    pathname?.replace(/^\/en/, '/sv').replace(/^\/sv/, '/en') || (locale === 'sv' ? '/en' : '/sv');
+  const isHome = pathname === '/sv' || pathname === '/en';
+  const scrollToContent = (e: React.MouseEvent) => {
+    e.preventDefault();
+    closeMenu();
+    document.getElementById('content')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    window.history.replaceState(null, '', `${basePath}#content`);
+  };
+
+  const otherLocale = locale === 'sv' ? 'en' : 'sv';
+  const pathWithoutLocale = pathname?.replace(/^\/(en|sv)/, '') ?? '';
+  const langHref = `/${otherLocale}${pathWithoutLocale || ''}`;
 
   return (
     <>
       <button
         type="button"
         onClick={() => setMenuOpen((v) => !v)}
-        className="fixed right-4 top-4 z-50 rounded p-2 text-gray-700 hover:bg-white/80 focus:outline-none focus:ring-2 focus:ring-pink-300"
+        className="fixed right-5 top-5 z-50 flex h-11 w-11 items-center justify-center rounded-full bg-burgundy/90 text-white shadow-lg transition hover:bg-burgundy focus:outline-none focus:ring-2 focus:ring-burgundy focus:ring-offset-2 focus:ring-offset-baby-pink"
         aria-label={t(dict, 'nav.menu')}
         aria-expanded={menuOpen}
       >
-        <MenuIcon />
+        <MenuIcon open={menuOpen} />
       </button>
 
       {menuOpen && (
         <>
           <div
-            className="fixed inset-0 z-40 bg-gray-900/50"
+            className="fixed inset-0 z-40 bg-gray-900/60 backdrop-blur-sm"
             onClick={closeMenu}
             aria-hidden
           />
           <div
-            className="fixed inset-0 z-50 flex items-center justify-center p-4"
+            className="fixed inset-0 z-50 flex items-center justify-center p-6"
             role="dialog"
             aria-label={t(dict, 'nav.menu')}
             onClick={closeMenu}
           >
-            <div
-              className="w-full max-w-sm rounded-xl border border-pink-200 bg-white shadow-xl"
+            <nav
+              className="flex flex-col items-center gap-1 text-center"
               onClick={(e) => e.stopPropagation()}
             >
-              <ul className="flex flex-col py-2">
+              <ul className="flex flex-col gap-0.5">
                 {navItems.map((item) => (
                   <li key={item.labelKey}>
                     {item.cta ? (
@@ -96,15 +109,23 @@ export default function Navbar({ locale, dict }: NavbarProps) {
                         href={item.href}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="block px-4 py-3 text-gray-700 hover:bg-pink-50"
+                        className="block px-6 py-3 text-lg font-medium text-white transition hover:text-white/90 hover:underline"
                         onClick={closeMenu}
                       >
                         {t(dict, item.labelKey)}
                       </a>
+                    ) : item.href === '#content' && isHome ? (
+                      <button
+                        type="button"
+                        className="block w-full px-6 py-3 text-lg font-medium text-white transition hover:text-white/90 hover:underline text-center"
+                        onClick={scrollToContent}
+                      >
+                        {t(dict, item.labelKey)}
+                      </button>
                     ) : (
                       <Link
                         href={getHref(item)}
-                        className="block px-4 py-3 text-gray-700 hover:bg-pink-50"
+                        className="block px-6 py-3 text-lg font-medium text-white transition hover:text-white/90 hover:underline"
                         onClick={closeMenu}
                       >
                         {t(dict, item.labelKey)}
@@ -112,17 +133,16 @@ export default function Navbar({ locale, dict }: NavbarProps) {
                     )}
                   </li>
                 ))}
-                <li className="border-t border-pink-100 pt-2">
-                  <Link
-                    href={langHref}
-                    className="block px-4 py-3 text-gray-600 hover:bg-pink-50"
-                    onClick={closeMenu}
-                  >
-                    {locale === 'sv' ? 'English (EN)' : 'Svenska (SV)'}
-                  </Link>
-                </li>
               </ul>
-            </div>
+              <span className="my-3 h-px w-12 bg-white/40" aria-hidden />
+              <Link
+                href={langHref}
+                className="block px-6 py-2 text-base text-white/90 transition hover:text-white hover:underline"
+                onClick={closeMenu}
+              >
+                {locale === 'sv' ? 'English (EN)' : 'Svenska (SV)'}
+              </Link>
+            </nav>
           </div>
         </>
       )}
