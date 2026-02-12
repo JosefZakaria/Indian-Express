@@ -1,1 +1,1161 @@
-{"nav":{"menu":"Meny","home":"Hem","eveningMenu":"Kvällsmeny","dailyLunch":"Dagens lunch","weeklyLunch":"Veckans lunch","foodMenu":"Matmeny","drinkMenu":"Dryckesmeny","bookTable":"Boka bord","takeaway":"Takeaway","delivery":"Leverans","catering":"Catering","aboutUs":"Om oss","findUs":"Hitta hit"},"home":{"title":"Indian Express","aboutTitle":"Om oss","aboutText":"Indian Express är ett familjeföretag som serverat autentisk indisk mat sedan 2004.","aboutHeading":"Indian Express","aboutPara1":"Indian Express är ett familjeföretag som serverat autentisk indisk mat sedan 2004.","aboutPara2":"Matlagning är vår största passion och kärlek vilket garanterat känns i smakerna.","aboutPara3":"Hos oss får du alltid utmärkt service och fantastisk mat.","aboutWelcome":"Välkommen!","contactTitle":"Kontakt","address":"Adress","phone":"Telefon","email":"Mail","emailAddress":"info@indianexpress.se","openingHours":"Öppettider","hoursValue":"Mån–Fre 11:00–22:00, Lör–Sön 12:00–22:00","hoursMonThuLabel":"Måndag - Torsdag:","hoursMonThuTime":"11:30 - 22:30","dayFri":"fredag","daySat":"lördag","daySun":"söndag","hoursFri":"11:30–01","hoursSat":"12:30–01","hoursSun":"12:30–22:30"},"lunch":{"title":"Lunch","weeklyTitle":"Veckans lunchmeny","dailyTitle":"Dagens lunch","dish1":{"name":"Rätt 1","description":"Beskrivning 1"},"dish2":{"name":"Rätt 2","description":"Beskrivning 2"},"dish3":{"name":"Rätt 3","description":"Beskrivning 3"},"dish4":{"name":"Rätt 4","description":"Beskrivning 4"},"dish5":{"name":"Rätt 5","description":"Beskrivning 5"},"dish6":{"name":"Rätt 6","description":"Beskrivning 6"},"dish7":{"name":"Rätt 7","description":"Beskrivning 7"},"dish8":{"name":"Rätt 8","description":"Beskrivning 8"},"dish9":{"name":"Rätt 9","description":"Beskrivning 9"},"dish10":{"name":"Rätt 10","description":"Beskrivning 10"},"dish11":{"name":"Rätt 11","description":"Beskrivning 11"},"dish12":{"name":"Rätt 12","description":"Beskrivning 12"},"dish13":{"name":"Rätt 13","description":"Beskrivning 13"},"dish14":{"name":"Rätt 14","description":"Beskrivning 14"},"dish15":{"name":"Rätt 15","description":"Beskrivning 15"},"dish16":{"name":"Rätt 16","description":"Beskrivning 16"},"dish17":{"name":"Rätt 17","description":"Beskrivning 17"},"dish18":{"name":"Rätt 18","description":"Beskrivning 18"},"dish19":{"name":"Rätt 19","description":"Beskrivning 19"},"dish20":{"name":"Rätt 20","description":"Beskrivning 20"}},"lunch.dish1.name":"Rätt 1","lunch.dish1.description":"Beskrivning 1","lunch.dish2.name":"Rätt 2","lunch.dish2.description":"Beskrivning 2","lunch.dish3.name":"Rätt 3","lunch.dish3.description":"Beskrivning 3","lunch.dish4.name":"Rätt 4","lunch.dish4.description":"Beskrivning 4","lunch.dish5.name":"Rätt 5","lunch.dish5.description":"Beskrivning 5","lunch.dish6.name":"Rätt 6","lunch.dish6.description":"Beskrivning 6","lunch.dish7.name":"Rätt 7","lunch.dish7.description":"Beskrivning 7","lunch.dish8.name":"Rätt 8","lunch.dish8.description":"Beskrivning 8","lunch.dish9.name":"Rätt 9","lunch.dish9.description":"Beskrivning 9","lunch.dish10.name":"Rätt 10","lunch.dish10.description":"Beskrivning 10","lunch.dish11.name":"Rätt 11","lunch.dish11.description":"Beskrivning 11","lunch.dish12.name":"Rätt 12","lunch.dish12.description":"Beskrivning 12","lunch.dish13.name":"Rätt 13","lunch.dish13.description":"Beskrivning 13","lunch.dish14.name":"Rätt 14","lunch.dish14.description":"Beskrivning 14","lunch.dish15.name":"Rätt 15","lunch.dish15.description":"Beskrivning 15","lunch.dish16.name":"Rätt 16","lunch.dish16.description":"Beskrivning 16","lunch.dish17.name":"Rätt 17","lunch.dish17.description":"Beskrivning 17","lunch.dish18.name":"Rätt 18","lunch.dish18.description":"Beskrivning 18","lunch.dish19.name":"Rätt 19","lunch.dish19.description":"Beskrivning 19","lunch.dish20.name":"Rätt 20","lunch.dish20.description":"Beskrivning 20","foodMenu":{"title":"Matmeny"},"drinkMenu":{"title":"Dryckesmeny","sections":{"alkoholfritt":{"title":"ALKOHOLFRITT","note":"","items":{"cola-mix":{"name":"Cola | Cola zero | Fanta | Sprite | Pepsi Max","description":""},"juice-mix":{"name":"Juice | Mango | Passion | Tranbär | Apelsin","description":""},"mango-lassi":{"name":"Mango lassi - yoghurt | mangopure","description":""},"vegan-mango-lassi":{"name":"Vegan Mango Lassi - havregurt | mangopure | mangojuice","description":""},"redbull":{"name":"Redbull, 25 cl","description":""}}},"alkoholfri-ol":{"title":"ALKOHOLFRI ÖL","note":"","items":{"heineken-0":{"name":"Heineken, 33 cl","description":""},"ship-ipa-0":{"name":"A Ship Full of IPA, 33 cl","description":""}}},"cider-ol-fat":{"title":"CIDER/ÖL PÅ FAT","note":"40cl | 50cl","items":{"briska":{"name":"Briska päroncider, 4,5 %","description":""},"norrlands-guld":{"name":"Norrlands Guld, 5,3 %","description":""},"heineken-fat":{"name":"Heineken, 5,0 %","description":""},"krusovice":{"name":"Krusovice, 5,0 %","description":""},"ship-ipa-fat":{"name":"A Ship Full of IPA, 5,8 %","description":""},"1664-blanc":{"name":"1664 blanc, 5,0 %","description":""},"eriksberg":{"name":"Eriksberg Karaktär, 5,4 %","description":""}}},"cider-ol-flaska":{"title":"CIDER/ÖL PÅ FLASKA","note":"","items":{"briska-blabar":{"name":"Briska, blåbär hallon, 33 cl","description":""},"carlsberg-hof":{"name":"Carlsberg Hof, 33 cl","description":""},"sol":{"name":"Sol, 33 cl","description":""},"sitting-bulldog":{"name":"Sitting Bulldog IPA, 33 cl","description":""},"ginger-joe":{"name":"Ginger Joe, 33 cl","description":""},"daura-damm":{"name":"Daura Damm, glutenfri, 33 cl","description":""},"tuborg-guld":{"name":"Tuborg Guld, 50 cl","description":""},"mariestads":{"name":"Mariestads Export, 50 cl","description":""},"old-ox":{"name":"Old Ox, 50 cl","description":""},"paulaner":{"name":"Paulaner, 50 cl","description":""},"kingfisher":{"name":"Kingfisher, indisk, 33 cl","description":""},"cobra":{"name":"Cobra, indisk, 66 cl","description":""},"smirnoff-ice":{"name":"Smirnoff Ice, 27,5 cl","description":""}}},"rott":{"title":"RÖTT","note":"","items":{"maximo-tinto":{"name":"Maximo Tinto, Spanien","description":"Medelfylligt, ganska mjukt vin med mogna tanniner och toner av mynta, lakrits, röda bär som hallon och jordgubbar."},"la-primizia":{"name":"La primizia Vino Rosso, Italien","description":"Lätt, bärigt med mjuk strävhet och uppiggande syrlighet. Vi bjuds på skogshallon, jordgubbskompott och körsbär i likör samt pinjenöt, ceder, körsbärskärna och kanel i avslutet."},"valpolicella":{"name":"Valpolicella Ripasso, Italien","description":"Medelfylligt vin med smak av mörk frukt, choklad och lite mandel. Vinet har silkiga tanniner och lång aningens het eftersmak."}}},"vitt":{"title":"VITT","note":"","items":{"maximo-blanco":{"name":"Maximo Blanco, Spanien","description":"Torrt, lätt vin med en aptitretande frisk syra med fruktig smak och inslag av citrus och lite mineral."},"mehrlein-riesling":{"name":"Mehrlein Riesling Dry, Tyskland","description":"Klassisk riesling med frisk smak av citrus, gröna äpplen, grapefrukt, persika och mineraler."}}},"rose":{"title":"ROSÉ","note":"","items":{"barefoot-white-zinfandel":{"name":"Barefoot White Zinfandel, USA","description":"Frisk och härlig smak av mosade jordgubbar, hallon, solmogna päron och saftig ananas. Ett mycket fruktigt vin med viss sötma och krispigt avslut."},"santiago-assinatura":{"name":"Santiago Assinatura de Familia, Portugal","description":"Frisk och sötfruktig med en lätt sprits. Inslag av söta jordgubbar, hallon och röda vinbär med en behaglig sötma och läskande syra. Passar till lite kryddiga rätter av fisk eller kyckling."}}},"whiskey-rom-cognac":{"title":"WHISKEY | ROM | COGNAC","note":"","items":{"jameson":{"name":"Jameson","description":""},"famous-grouse":{"name":"Famous Grouse","description":""},"jim-beam":{"name":"Jim Beam","description":""},"jack-daniels":{"name":"Jack Daniels","description":""},"black-label":{"name":"Black Label","description":""},"gronstedt-monopole":{"name":"Grönstedt Monopole","description":""},"laphroaig":{"name":"Laphroaig","description":""},"macallan":{"name":"Macallan","description":""},"zacapa":{"name":"Zacapa","description":""},"diplomatico":{"name":"Diplomatico","description":""}}}}},"eveningMenu":{"title":"Kvällsmeny","sections":{"smaratter":{"title":"SMÅRÄTTER","note":"","items":{"papadam":{"name":"Papadam, vegansk","description":"Krispigt linsbröd | mango chutney"},"veg-samosa":{"name":"Veg Samosa, vegansk","description":"Grönsaksfyllda degknyten | rödkålssallad | tamarind och chili chutney"},"onion-bhaaje":{"name":"Onion Bhaaje","description":"Friterade lök fritters med en massa härliga örter och kryddor | rödkålssallad | chutney på mynta koriander chili och yoghurt"},"zucchini-cauliflower-pakora":{"name":"Zucchini & Cauliflower Pakora, vegansk","description":"Friterad zucchini och blomkål i kryddig smet | rödkålssallad | koriander | tamarind och chilichutney"},"chicken-samosa":{"name":"Chicken Samosa","description":"Två styck kycklingfyllda smördegsknyten | rödkålssallad | mynta- yoghurt chutney"},"chicken-roll":{"name":"Chicken Roll","description":"Smörstekt paratha | tandoorigrillad kycklingfilé | lök | paprika | rödkålssallad | aioli"},"king-prawn-roll":{"name":"King Prawn Roll","description":"Smörstekt paratha | smörstekta tigerräkor | lök | paprika | rödkålssallad | aioli"},"chicken-tikka":{"name":"Chicken Tikka","description":"Smörstekt tandoorigrillad kycklingfilé | lök | paprika. Serveras på gjutjärnspanna"},"seekh-kebab":{"name":"Seekh kebab","description":"Nötfärs marinerat i lök, vitlök, ingefära och indiska kryddor. Serveras med sallad, mynta, korianderchutney"},"chicken-tikka-naan":{"name":"Chicken Tikka Naan","description":"Naan fylld med tandoorigrillad kycklingfilé | potatis | chili | koriander | chutney på mynta koriander chili och yoghurt"},"prawn-puri":{"name":"Prawn Puri","description":"Kryddiga svarta tigerräkor | lök | paprika | smörstekt paratha | mynta och yoghurt chutney"},"king-prawn":{"name":"King Prawn","description":"Grillade svarta tigerräkor | lök | paprika. Serveras på het gjutjärnspanna"}}},"naan":{"title":"NAAN - TRADITIONELLT INDISKT BRÖD","note":"","items":{"plain-naan":{"name":"Plain Naan, vegansk","description":""},"garlic-naan":{"name":"Garlic Naan, med vitlök vegansk","description":""},"butter-naan":{"name":"Butter Naan, med ghee","description":""},"peshwari-naan":{"name":"Peshwari Naan, med mandel och kokosnöt vegansk","description":""},"butter-paneer-naan":{"name":"Butter Paneer Naan, med paneer och ghee","description":""},"chilli-paneer-naan":{"name":"Chilli paneer Naan, med paneer och chili","description":""},"garlic-paneer-naan":{"name":"Garlic Paneer Naan, med paneer och vitlök","description":""},"paratha":{"name":"Paratha, stekt i smör","description":""}}},"kockens-favoriter":{"title":"KOCKENS FAVORITER","note":"Alla huvudrätter serveras med pulaoris","items":{"chicken-lamb-tikka-masala":{"name":"Chicken/Lamb Tikka Masala, mild","description":"Tandoorigrillad kycklingfilé/lammfilé | smör | grädde | kokos | mandel | russin"},"butter-chicken-lamb":{"name":"Butter Chicken/Lamb, stark","description":"Tandoorigrillad kycklingfilé/lammfilé | smör | tomat | grädde | koriander"},"hot-chili-chicken-lamb":{"name":"Hot Chili Chicken/Lamb, söt stark","description":"Tandoorigrillad kycklingfilé/lammfilé | chili | lök | paprika | koriander | sweet chilisås"},"tandoori-chicken-lamb-masala":{"name":"Tandoori Chicken/Lamb Masala, stark","description":"Tandoorigrillad kycklingfilé eller lamm | yoghurt | tomat | lök | paprika | koriander"},"chicken-lamb-tikka-jalfrezi":{"name":"Chicken/Lamb Tikka Jalfrezi, mycket stark","description":"Tandoorigrillad kycklingfilé/lammfilé | lök | paprika| chili | koriander"},"chicken-lamb-tikka-karai":{"name":"Chicken/Lamb Tikka Karai, medium stark","description":"Tandoorigrillad lammfilé i marinad på vitlök i gryta med färska kryddor | lök | paprika | tomat | ingefära | koriander. Serveras på het gjutjärnspanna"},"chicken-lasuni-karai":{"name":"Chicken Lasuni Karai, medium stark","description":"Tandoorigrillad kycklingfilé i marinad på vitlök i gryta med färska kryddor | lök | paprika | tomat | ingefära | koriander. Serveras på het gjutjärnspanna"},"chicken-lamb-tikka-balti":{"name":"Chicken/Lamb Tikka Balti, stark","description":"Tandoorigrillad kycklingfilé med baltipaste | grädde | ingefära | vitlök | tomat | koriander | lök | paprika | potatis."},"chicken-lasuni-balti":{"name":"Chicken Lasuni Balti, stark","description":"Tandoorigrillad kycklingfilé i marinad på vitlök i krämig gryta med baltipaste | grädde | ingefära | vitlök | tomat| koriander | lök | paprika | potatis"}}},"tandoori-sizlar":{"title":"TANDOORI SIZLAR","note":"Marinerat sedan grillat i lerugn | stekt i smör | lök | paprika. Serveras på het gjutjärnspanna. Serveras med tomat och sweet chilisås. Medium stark.","items":{"tandoori-chicken-sizlar":{"name":"Tandoori Chicken - kycklingfilé","description":""},"chicken-tikka-sizlar":{"name":"Chicken Tikka Sizlar - kycklingfilé","description":""},"chicken-lasuni-sizlar":{"name":"Chicken lasuni Sizlar - vitlöksmarinerad kycklingfilé","description":""},"lamm-tikka-sizlar":{"name":"Lamm Tikka Sizlar - lammfilé","description":""},"king-prawn-sizlar":{"name":"King Prawn Sizlar - svarta tigerräkor","description":""},"mix-sizlar":{"name":"Mix Sizlar - kycklingfilé | lammfilé | svarta tigerräkor","description":""},"seekh-kebab-sizlar":{"name":"Seekh Kebab","description":"Nötfärs marinerat i lök, vitlök, ingefära och indiska kryddor. Serveras med mynta, korianderchutney och sizlarsås."}}},"thali":{"title":"THALI","note":"Traditionell tallrik med tre olika rätter. Naan | Papadam | Sallad | Gulab Jamun","items":{"kott-thali":{"name":"Kött Thali","description":"Kockens val av lamm, biff och kyckling. Mild, medium och stark."},"vegetarisk-thali":{"name":"Vegetarisk Thali","description":"Kockens val av grönsaker och paneer. Mild, medium och stark."}}},"birjani":{"title":"BIRJANI","note":"Risrätt med färska kryddor | örter | koriander | lök | paprika. Serveras med chutney på mynta koriander chili och yoghurt. Medium stark.","items":{"lamb-birjani":{"name":"Lamb Birjani - stekt lammfilé","description":""},"chicken-tikka-birjani":{"name":"Chicken Tikka Birjani - grillad kycklingfilé","description":""},"king-prawn-birjani":{"name":"King Prawn Birjani - grillade svarta tigerräkor","description":""}}},"curries":{"title":"CURRIES","note":"Kycklingfilé 175 kr | Paneer 175 kr | Tofu 170 kr | Biff 189 kr | Lammstek 199 kr | Grillad lammfilé 235 kr","items":{"madras":{"name":"Madras, mycket stark","description":"Sydindisk gryta | soltorkad chili | koriander | citron"},"vindaloo":{"name":"Vindaloo, extremt stark","description":"Husets starkaste gryta | soltorkad chili | Vindaloo paste | koriander"},"balti-curry":{"name":"Balti, stark","description":"Krämig gryta med baltipaste | grädde | ingefära | vitlök | tomat | koriander | lök | paprika | potatis"},"karai-curry":{"name":"Karai, medium stark","description":"Gryta med färska kryddor | lök | paprika | tomat | ingefära | koriander. Serveras på het gjutjärnspanna"},"lime-curry":{"name":"Lime Curry, medium stark","description":"Gryta med färska limeblad | citron | lök | paprika | kokosmjölk"},"rogan-josh":{"name":"Rogan Josh, medium stark","description":"Gryta med tomat | yoghurt | lök | paprika"},"curry-mango":{"name":"Curry Mango, medium stark","description":"Krämig gryta med färsk mango | grädde | smör"}}},"king-prawn":{"title":"KING PRAWN - SVARTA TIGERRÄKOR","note":"","items":{"king-prawn-karai":{"name":"King Prawn Karai, medium stark","description":"Gryta med färska kryddor | lök | paprika | tomat | ingefära | koriander. Serveras på het gjutjärnspanna"},"king-prawn-balti":{"name":"King Prawn Balti, stark","description":"Krämig gryta med baltipaste | grädde | ingefära | vitlök | tomat| koriander | lök | paprika | potatis"},"tandoori-king-prawn-tikka-masala":{"name":"Tandoori King Prawn Tikka Masala, mild","description":"Tandoorigrillade svarta tigerräkor | smör | grädde | kokos | mandel | russin"},"king-prawn-madras":{"name":"King Prawn Madras, mycket stark","description":"Sydindisk gryta | soltorkad chili | koriander | citron"},"king-prawn-butter":{"name":"King Prawn Butter, stark","description":"Tandoorigrillade svarta tigerräkor | smör | tomat | grädde | koriander"}}},"vegetariskt":{"title":"VEGETARISKT","note":"","items":{"daal-makhni":{"name":"Daal Makhni, medium stark","description":"Svarta linser i smör | grädde | tomat | koriander"},"tarka-daal":{"name":"Tarka Daal, medium stark vegansk","description":"Stekta gula linser | vitlök | koriander"},"aloo-gobi":{"name":"Aloo Gobi, medium stark vegansk","description":""},"sag-aloo":{"name":"Sag Aloo, medium stark vegansk","description":"Spenat | potatis | färska kryddor | koriander"},"pakora-karai":{"name":"Pakora Karai, medium stark vegansk","description":"Friterad zucchini & blomkål | lök | paprika | tomat. Serveras på gjutjärnspanna"},"mix-veg-karai":{"name":"Mix Veg Karai, medium stark vegansk","description":"Säsongens grönsaker | lök | paprika | curry. Currygryta med potatis | blomkål | lök | paprika | koriander"},"palak-paneer":{"name":"Palak Paneer, medium stark","description":"Spenat | hemgjord paneer | smör | koriander. Veganskt alternativ: tofu"},"paneer-masala":{"name":"Paneer Masala, mild","description":"Hemgjord paneer | smör | grädde | kokos | mandel | russin. Alternativ: tofu"},"paneer-butter":{"name":"Paneer Butter, stark","description":"Hemgjord paneer | smör | tomat | grädde| koriander. Alternativ: tofu"},"paneer-kofta":{"name":"Paneer Kofta, medium stark","description":"Kryddiga hemgjorda spenatbollar fyllda med paneer i currysås"}}},"tillbehor":{"title":"TILLBEHÖR","note":"","items":{"raita":{"name":"Raita","description":""},"mango-chutney":{"name":"Mango chutney | tamarind - chili chutney","description":""},"mynta-yoghurt-chutney":{"name":"Mynta - yoghurt chutney","description":""},"mynta-koriander-chutney":{"name":"Mynta - koriander chutney","description":""},"chili-lime-pickles":{"name":"Chili pickles | Lime pickles","description":""},"extra-ris":{"name":"Extra ris","description":""},"side-sallad":{"name":"Side sallad","description":"Rödkål | koriander | morot | citron"},"extra-sas":{"name":"Extra sås","description":"Masala - mild | Curry - medium stark | Madras - stark"}}},"efter-maten":{"title":"EFTER MATEN","note":"","items":{"gulab-jamun":{"name":"Gulab Jamun","description":"Friterad degboll i rosensirap | vaniljglass | bär"},"malai-kulfi":{"name":"Malai Kulfi","description":"Med grädde | pistage | kardemumma | kanel"},"chokladkaka":{"name":"Chokladkaka","description":"Med vaniljglass | bär"},"vaniljglass":{"name":"Vaniljglass","description":"Med Nutella | hallon | mynta"}}}}},"catering":{"title":"Catering","heading1":"Vi erbjuder catering för alla tillfällen!","heading2":"Både till privatpersoner och företag.","para1":"Företagslunch, Event, Mingelkväll, Bröllop, Jul och Nyår, Studentfest, Vegetarisk buffé, Högtidsfester av alla slag.","para2":"Allt från sensationella bufféer till middagar för stora och små sällskap.","cta":"Välkommen att kontakta oss så diskuterar vi fram något som passar just era önskemål!"},"about":{"title":"Om oss"},"findUs":{"title":"Hitta hit"},"bookTable":{"title":"Boka bord"},"takeaway":{"title":"Takeaway"},"delivery":{"title":"Leverans"}}
+{
+  "nav": {
+    "menu": "Meny",
+    "home": "Hem",
+    "eveningMenu": "Kvällsmeny",
+    "dailyLunch": "Dagens lunch",
+    "weeklyLunch": "Veckans lunch",
+    "foodMenu": "Matmeny",
+    "drinkMenu": "Dryckesmeny",
+    "bookTable": "Boka bord",
+    "takeaway": "Takeaway",
+    "delivery": "Leverans",
+    "catering": "Catering",
+    "aboutUs": "Om oss",
+    "findUs": "Hitta hit"
+  },
+  "home": {
+    "title": "Indian Express",
+    "aboutTitle": "Om oss",
+    "aboutText": "Indian Express är ett familjeföretag som serverat autentisk indisk mat sedan 2004.",
+    "aboutHeading": "Indian Express",
+    "aboutPara1": "Indian Express är ett familjeföretag som serverat autentisk indisk mat sedan 2004.",
+    "aboutPara2": "Matlagning är vår största passion och kärlek vilket garanterat känns i smakerna.",
+    "aboutPara3": "Hos oss får du alltid utmärkt service och fantastisk mat.",
+    "aboutWelcome": "Välkommen!",
+    "contactTitle": "Kontakt",
+    "address": "Adress",
+    "phone": "Telefon",
+    "email": "Mail",
+    "emailAddress": "info@indianexpress.se",
+    "openingHours": "Öppettider",
+    "hoursValue": "Mån–Fre 11:00–22:00, Lör–Sön 12:00–22:00",
+    "hoursMonThuLabel": "Måndag - Torsdag:",
+    "hoursMonThuTime": "11:30 - 22:30",
+    "dayFri": "fredag",
+    "daySat": "lördag",
+    "daySun": "söndag",
+    "hoursFri": "11:30–01",
+    "hoursSat": "12:30–01",
+    "hoursSun": "12:30–22:30"
+  },
+  "lunch": {
+    "title": "Lunch",
+    "weeklyTitle": "Veckans lunchmeny",
+    "dailyTitle": "Dagens lunch",
+    "dish1": {
+      "name": "Rätt 1",
+      "description": "Beskrivning 1"
+    },
+    "dish2": {
+      "name": "Rätt 2",
+      "description": "Beskrivning 2"
+    },
+    "dish3": {
+      "name": "Rätt 3",
+      "description": "Beskrivning 3"
+    },
+    "dish4": {
+      "name": "Rätt 4",
+      "description": "Beskrivning 4"
+    },
+    "dish5": {
+      "name": "Rätt 5",
+      "description": "Beskrivning 5"
+    },
+    "dish6": {
+      "name": "Rätt 6",
+      "description": "Beskrivning 6"
+    },
+    "dish7": {
+      "name": "Rätt 7",
+      "description": "Beskrivning 7"
+    },
+    "dish8": {
+      "name": "Rätt 8",
+      "description": "Beskrivning 8"
+    },
+    "dish9": {
+      "name": "Rätt 9",
+      "description": "Beskrivning 9"
+    },
+    "dish10": {
+      "name": "Rätt 10",
+      "description": "Beskrivning 10"
+    },
+    "dish11": {
+      "name": "Rätt 11",
+      "description": "Beskrivning 11"
+    },
+    "dish12": {
+      "name": "Rätt 12",
+      "description": "Beskrivning 12"
+    },
+    "dish13": {
+      "name": "Rätt 13",
+      "description": "Beskrivning 13"
+    },
+    "dish14": {
+      "name": "Rätt 14",
+      "description": "Beskrivning 14"
+    },
+    "dish15": {
+      "name": "Rätt 15",
+      "description": "Beskrivning 15"
+    },
+    "dish16": {
+      "name": "Rätt 16",
+      "description": "Beskrivning 16"
+    },
+    "dish17": {
+      "name": "Rätt 17",
+      "description": "Beskrivning 17"
+    },
+    "dish18": {
+      "name": "Rätt 18",
+      "description": "Beskrivning 18"
+    },
+    "dish19": {
+      "name": "Rätt 19",
+      "description": "Beskrivning 19"
+    },
+    "dish20": {
+      "name": "Rätt 20",
+      "description": "Beskrivning 20"
+    },
+    "days": {
+      "0": "Måndag",
+      "1": "Tisdag",
+      "2": "Onsdag",
+      "3": "Torsdag",
+      "4": "Fredag"
+    },
+    "weekendMessage": "Ingen lunch idag – välkommen tillbaka på måndag!",
+    "dish21": {
+      "name": "Vecka 1 Torsdag Rätt 3",
+      "description": "Beskrivning för vecka 1 Torsdag rätt 3"
+    },
+    "dish22": {
+      "name": "Vecka 1 Torsdag Rätt 4",
+      "description": "Beskrivning för vecka 1 Torsdag rätt 4"
+    },
+    "dish23": {
+      "name": "Vecka 1 Torsdag Rätt 5",
+      "description": "Beskrivning för vecka 1 Torsdag rätt 5"
+    },
+    "dish24": {
+      "name": "Vecka 1 Torsdag Rätt 6",
+      "description": "Beskrivning för vecka 1 Torsdag rätt 6"
+    },
+    "dish25": {
+      "name": "Vecka 1 Fredag Rätt 1",
+      "description": "Beskrivning för vecka 1 Fredag rätt 1"
+    },
+    "dish26": {
+      "name": "Vecka 1 Fredag Rätt 2",
+      "description": "Beskrivning för vecka 1 Fredag rätt 2"
+    },
+    "dish27": {
+      "name": "Vecka 1 Fredag Rätt 3",
+      "description": "Beskrivning för vecka 1 Fredag rätt 3"
+    },
+    "dish28": {
+      "name": "Vecka 1 Fredag Rätt 4",
+      "description": "Beskrivning för vecka 1 Fredag rätt 4"
+    },
+    "dish29": {
+      "name": "Vecka 1 Fredag Rätt 5",
+      "description": "Beskrivning för vecka 1 Fredag rätt 5"
+    },
+    "dish30": {
+      "name": "Vecka 1 Fredag Rätt 6",
+      "description": "Beskrivning för vecka 1 Fredag rätt 6"
+    },
+    "dish31": {
+      "name": "Vecka 2 Måndag Rätt 1",
+      "description": "Beskrivning för vecka 2 Måndag rätt 1"
+    },
+    "dish32": {
+      "name": "Vecka 2 Måndag Rätt 2",
+      "description": "Beskrivning för vecka 2 Måndag rätt 2"
+    },
+    "dish33": {
+      "name": "Vecka 2 Måndag Rätt 3",
+      "description": "Beskrivning för vecka 2 Måndag rätt 3"
+    },
+    "dish34": {
+      "name": "Vecka 2 Måndag Rätt 4",
+      "description": "Beskrivning för vecka 2 Måndag rätt 4"
+    },
+    "dish35": {
+      "name": "Vecka 2 Måndag Rätt 5",
+      "description": "Beskrivning för vecka 2 Måndag rätt 5"
+    },
+    "dish36": {
+      "name": "Vecka 2 Måndag Rätt 6",
+      "description": "Beskrivning för vecka 2 Måndag rätt 6"
+    },
+    "dish37": {
+      "name": "Vecka 2 Tisdag Rätt 1",
+      "description": "Beskrivning för vecka 2 Tisdag rätt 1"
+    },
+    "dish38": {
+      "name": "Vecka 2 Tisdag Rätt 2",
+      "description": "Beskrivning för vecka 2 Tisdag rätt 2"
+    },
+    "dish39": {
+      "name": "Vecka 2 Tisdag Rätt 3",
+      "description": "Beskrivning för vecka 2 Tisdag rätt 3"
+    },
+    "dish40": {
+      "name": "Vecka 2 Tisdag Rätt 4",
+      "description": "Beskrivning för vecka 2 Tisdag rätt 4"
+    },
+    "dish41": {
+      "name": "Vecka 2 Tisdag Rätt 5",
+      "description": "Beskrivning för vecka 2 Tisdag rätt 5"
+    },
+    "dish42": {
+      "name": "Vecka 2 Tisdag Rätt 6",
+      "description": "Beskrivning för vecka 2 Tisdag rätt 6"
+    },
+    "dish43": {
+      "name": "Vecka 2 Onsdag Rätt 1",
+      "description": "Beskrivning för vecka 2 Onsdag rätt 1"
+    },
+    "dish44": {
+      "name": "Vecka 2 Onsdag Rätt 2",
+      "description": "Beskrivning för vecka 2 Onsdag rätt 2"
+    },
+    "dish45": {
+      "name": "Vecka 2 Onsdag Rätt 3",
+      "description": "Beskrivning för vecka 2 Onsdag rätt 3"
+    },
+    "dish46": {
+      "name": "Vecka 2 Onsdag Rätt 4",
+      "description": "Beskrivning för vecka 2 Onsdag rätt 4"
+    },
+    "dish47": {
+      "name": "Vecka 2 Onsdag Rätt 5",
+      "description": "Beskrivning för vecka 2 Onsdag rätt 5"
+    },
+    "dish48": {
+      "name": "Vecka 2 Onsdag Rätt 6",
+      "description": "Beskrivning för vecka 2 Onsdag rätt 6"
+    },
+    "dish49": {
+      "name": "Vecka 2 Torsdag Rätt 1",
+      "description": "Beskrivning för vecka 2 Torsdag rätt 1"
+    },
+    "dish50": {
+      "name": "Vecka 2 Torsdag Rätt 2",
+      "description": "Beskrivning för vecka 2 Torsdag rätt 2"
+    },
+    "dish51": {
+      "name": "Vecka 2 Torsdag Rätt 3",
+      "description": "Beskrivning för vecka 2 Torsdag rätt 3"
+    },
+    "dish52": {
+      "name": "Vecka 2 Torsdag Rätt 4",
+      "description": "Beskrivning för vecka 2 Torsdag rätt 4"
+    },
+    "dish53": {
+      "name": "Vecka 2 Torsdag Rätt 5",
+      "description": "Beskrivning för vecka 2 Torsdag rätt 5"
+    },
+    "dish54": {
+      "name": "Vecka 2 Torsdag Rätt 6",
+      "description": "Beskrivning för vecka 2 Torsdag rätt 6"
+    },
+    "dish55": {
+      "name": "Vecka 2 Fredag Rätt 1",
+      "description": "Beskrivning för vecka 2 Fredag rätt 1"
+    },
+    "dish56": {
+      "name": "Vecka 2 Fredag Rätt 2",
+      "description": "Beskrivning för vecka 2 Fredag rätt 2"
+    },
+    "dish57": {
+      "name": "Vecka 2 Fredag Rätt 3",
+      "description": "Beskrivning för vecka 2 Fredag rätt 3"
+    },
+    "dish58": {
+      "name": "Vecka 2 Fredag Rätt 4",
+      "description": "Beskrivning för vecka 2 Fredag rätt 4"
+    },
+    "dish59": {
+      "name": "Vecka 2 Fredag Rätt 5",
+      "description": "Beskrivning för vecka 2 Fredag rätt 5"
+    },
+    "dish60": {
+      "name": "Vecka 2 Fredag Rätt 6",
+      "description": "Beskrivning för vecka 2 Fredag rätt 6"
+    },
+    "dish61": {
+      "name": "Vecka 3 Måndag Rätt 1",
+      "description": "Beskrivning för vecka 3 Måndag rätt 1"
+    },
+    "dish62": {
+      "name": "Vecka 3 Måndag Rätt 2",
+      "description": "Beskrivning för vecka 3 Måndag rätt 2"
+    },
+    "dish63": {
+      "name": "Vecka 3 Måndag Rätt 3",
+      "description": "Beskrivning för vecka 3 Måndag rätt 3"
+    },
+    "dish64": {
+      "name": "Vecka 3 Måndag Rätt 4",
+      "description": "Beskrivning för vecka 3 Måndag rätt 4"
+    },
+    "dish65": {
+      "name": "Vecka 3 Måndag Rätt 5",
+      "description": "Beskrivning för vecka 3 Måndag rätt 5"
+    },
+    "dish66": {
+      "name": "Vecka 3 Måndag Rätt 6",
+      "description": "Beskrivning för vecka 3 Måndag rätt 6"
+    },
+    "dish67": {
+      "name": "Vecka 3 Tisdag Rätt 1",
+      "description": "Beskrivning för vecka 3 Tisdag rätt 1"
+    },
+    "dish68": {
+      "name": "Vecka 3 Tisdag Rätt 2",
+      "description": "Beskrivning för vecka 3 Tisdag rätt 2"
+    },
+    "dish69": {
+      "name": "Vecka 3 Tisdag Rätt 3",
+      "description": "Beskrivning för vecka 3 Tisdag rätt 3"
+    },
+    "dish70": {
+      "name": "Vecka 3 Tisdag Rätt 4",
+      "description": "Beskrivning för vecka 3 Tisdag rätt 4"
+    },
+    "dish71": {
+      "name": "Vecka 3 Tisdag Rätt 5",
+      "description": "Beskrivning för vecka 3 Tisdag rätt 5"
+    },
+    "dish72": {
+      "name": "Vecka 3 Tisdag Rätt 6",
+      "description": "Beskrivning för vecka 3 Tisdag rätt 6"
+    },
+    "dish73": {
+      "name": "Vecka 3 Onsdag Rätt 1",
+      "description": "Beskrivning för vecka 3 Onsdag rätt 1"
+    },
+    "dish74": {
+      "name": "Vecka 3 Onsdag Rätt 2",
+      "description": "Beskrivning för vecka 3 Onsdag rätt 2"
+    },
+    "dish75": {
+      "name": "Vecka 3 Onsdag Rätt 3",
+      "description": "Beskrivning för vecka 3 Onsdag rätt 3"
+    },
+    "dish76": {
+      "name": "Vecka 3 Onsdag Rätt 4",
+      "description": "Beskrivning för vecka 3 Onsdag rätt 4"
+    },
+    "dish77": {
+      "name": "Vecka 3 Onsdag Rätt 5",
+      "description": "Beskrivning för vecka 3 Onsdag rätt 5"
+    },
+    "dish78": {
+      "name": "Vecka 3 Onsdag Rätt 6",
+      "description": "Beskrivning för vecka 3 Onsdag rätt 6"
+    },
+    "dish79": {
+      "name": "Vecka 3 Torsdag Rätt 1",
+      "description": "Beskrivning för vecka 3 Torsdag rätt 1"
+    },
+    "dish80": {
+      "name": "Vecka 3 Torsdag Rätt 2",
+      "description": "Beskrivning för vecka 3 Torsdag rätt 2"
+    },
+    "dish81": {
+      "name": "Vecka 3 Torsdag Rätt 3",
+      "description": "Beskrivning för vecka 3 Torsdag rätt 3"
+    },
+    "dish82": {
+      "name": "Vecka 3 Torsdag Rätt 4",
+      "description": "Beskrivning för vecka 3 Torsdag rätt 4"
+    },
+    "dish83": {
+      "name": "Vecka 3 Torsdag Rätt 5",
+      "description": "Beskrivning för vecka 3 Torsdag rätt 5"
+    },
+    "dish84": {
+      "name": "Vecka 3 Torsdag Rätt 6",
+      "description": "Beskrivning för vecka 3 Torsdag rätt 6"
+    },
+    "dish85": {
+      "name": "Vecka 3 Fredag Rätt 1",
+      "description": "Beskrivning för vecka 3 Fredag rätt 1"
+    },
+    "dish86": {
+      "name": "Vecka 3 Fredag Rätt 2",
+      "description": "Beskrivning för vecka 3 Fredag rätt 2"
+    },
+    "dish87": {
+      "name": "Vecka 3 Fredag Rätt 3",
+      "description": "Beskrivning för vecka 3 Fredag rätt 3"
+    },
+    "dish88": {
+      "name": "Vecka 3 Fredag Rätt 4",
+      "description": "Beskrivning för vecka 3 Fredag rätt 4"
+    },
+    "dish89": {
+      "name": "Vecka 3 Fredag Rätt 5",
+      "description": "Beskrivning för vecka 3 Fredag rätt 5"
+    },
+    "dish90": {
+      "name": "Vecka 3 Fredag Rätt 6",
+      "description": "Beskrivning för vecka 3 Fredag rätt 6"
+    },
+    "dish91": {
+      "name": "Vecka 4 Måndag Rätt 1",
+      "description": "Beskrivning för vecka 4 Måndag rätt 1"
+    },
+    "dish92": {
+      "name": "Vecka 4 Måndag Rätt 2",
+      "description": "Beskrivning för vecka 4 Måndag rätt 2"
+    },
+    "dish93": {
+      "name": "Vecka 4 Måndag Rätt 3",
+      "description": "Beskrivning för vecka 4 Måndag rätt 3"
+    },
+    "dish94": {
+      "name": "Vecka 4 Måndag Rätt 4",
+      "description": "Beskrivning för vecka 4 Måndag rätt 4"
+    },
+    "dish95": {
+      "name": "Vecka 4 Måndag Rätt 5",
+      "description": "Beskrivning för vecka 4 Måndag rätt 5"
+    },
+    "dish96": {
+      "name": "Vecka 4 Måndag Rätt 6",
+      "description": "Beskrivning för vecka 4 Måndag rätt 6"
+    },
+    "dish97": {
+      "name": "Vecka 4 Tisdag Rätt 1",
+      "description": "Beskrivning för vecka 4 Tisdag rätt 1"
+    },
+    "dish98": {
+      "name": "Vecka 4 Tisdag Rätt 2",
+      "description": "Beskrivning för vecka 4 Tisdag rätt 2"
+    },
+    "dish99": {
+      "name": "Vecka 4 Tisdag Rätt 3",
+      "description": "Beskrivning för vecka 4 Tisdag rätt 3"
+    },
+    "dish100": {
+      "name": "Vecka 4 Tisdag Rätt 4",
+      "description": "Beskrivning för vecka 4 Tisdag rätt 4"
+    },
+    "dish101": {
+      "name": "Vecka 4 Tisdag Rätt 5",
+      "description": "Beskrivning för vecka 4 Tisdag rätt 5"
+    },
+    "dish102": {
+      "name": "Vecka 4 Tisdag Rätt 6",
+      "description": "Beskrivning för vecka 4 Tisdag rätt 6"
+    },
+    "dish103": {
+      "name": "Vecka 4 Onsdag Rätt 1",
+      "description": "Beskrivning för vecka 4 Onsdag rätt 1"
+    },
+    "dish104": {
+      "name": "Vecka 4 Onsdag Rätt 2",
+      "description": "Beskrivning för vecka 4 Onsdag rätt 2"
+    },
+    "dish105": {
+      "name": "Vecka 4 Onsdag Rätt 3",
+      "description": "Beskrivning för vecka 4 Onsdag rätt 3"
+    },
+    "dish106": {
+      "name": "Vecka 4 Onsdag Rätt 4",
+      "description": "Beskrivning för vecka 4 Onsdag rätt 4"
+    },
+    "dish107": {
+      "name": "Vecka 4 Onsdag Rätt 5",
+      "description": "Beskrivning för vecka 4 Onsdag rätt 5"
+    },
+    "dish108": {
+      "name": "Vecka 4 Onsdag Rätt 6",
+      "description": "Beskrivning för vecka 4 Onsdag rätt 6"
+    },
+    "dish109": {
+      "name": "Vecka 4 Torsdag Rätt 1",
+      "description": "Beskrivning för vecka 4 Torsdag rätt 1"
+    },
+    "dish110": {
+      "name": "Vecka 4 Torsdag Rätt 2",
+      "description": "Beskrivning för vecka 4 Torsdag rätt 2"
+    },
+    "dish111": {
+      "name": "Vecka 4 Torsdag Rätt 3",
+      "description": "Beskrivning för vecka 4 Torsdag rätt 3"
+    },
+    "dish112": {
+      "name": "Vecka 4 Torsdag Rätt 4",
+      "description": "Beskrivning för vecka 4 Torsdag rätt 4"
+    },
+    "dish113": {
+      "name": "Vecka 4 Torsdag Rätt 5",
+      "description": "Beskrivning för vecka 4 Torsdag rätt 5"
+    },
+    "dish114": {
+      "name": "Vecka 4 Torsdag Rätt 6",
+      "description": "Beskrivning för vecka 4 Torsdag rätt 6"
+    },
+    "dish115": {
+      "name": "Vecka 4 Fredag Rätt 1",
+      "description": "Beskrivning för vecka 4 Fredag rätt 1"
+    },
+    "dish116": {
+      "name": "Vecka 4 Fredag Rätt 2",
+      "description": "Beskrivning för vecka 4 Fredag rätt 2"
+    },
+    "dish117": {
+      "name": "Vecka 4 Fredag Rätt 3",
+      "description": "Beskrivning för vecka 4 Fredag rätt 3"
+    },
+    "dish118": {
+      "name": "Vecka 4 Fredag Rätt 4",
+      "description": "Beskrivning för vecka 4 Fredag rätt 4"
+    },
+    "dish119": {
+      "name": "Vecka 4 Fredag Rätt 5",
+      "description": "Beskrivning för vecka 4 Fredag rätt 5"
+    },
+    "dish120": {
+      "name": "Vecka 4 Fredag Rätt 6",
+      "description": "Beskrivning för vecka 4 Fredag rätt 6"
+    }
+  },
+  "foodMenu": {
+    "title": "Matmeny"
+  },
+  "drinkMenu": {
+    "title": "Dryckesmeny",
+    "sections": {
+      "alkoholfritt": {
+        "title": "ALKOHOLFRITT",
+        "note": "",
+        "items": {
+          "cola-mix": {
+            "name": "Cola | Cola zero | Fanta | Sprite | Pepsi Max",
+            "description": ""
+          },
+          "juice-mix": {
+            "name": "Juice | Mango | Passion | Tranbär | Apelsin",
+            "description": ""
+          },
+          "mango-lassi": {
+            "name": "Mango lassi - yoghurt | mangopure",
+            "description": ""
+          },
+          "vegan-mango-lassi": {
+            "name": "Vegan Mango Lassi - havregurt | mangopure | mangojuice",
+            "description": ""
+          },
+          "redbull": {
+            "name": "Redbull, 25 cl",
+            "description": ""
+          }
+        }
+      },
+      "alkoholfri-ol": {
+        "title": "ALKOHOLFRI ÖL",
+        "note": "",
+        "items": {
+          "heineken-0": {
+            "name": "Heineken, 33 cl",
+            "description": ""
+          },
+          "ship-ipa-0": {
+            "name": "A Ship Full of IPA, 33 cl",
+            "description": ""
+          }
+        }
+      },
+      "cider-ol-fat": {
+        "title": "CIDER/ÖL PÅ FAT",
+        "note": "40cl | 50cl",
+        "items": {
+          "briska": {
+            "name": "Briska päroncider, 4,5 %",
+            "description": ""
+          },
+          "norrlands-guld": {
+            "name": "Norrlands Guld, 5,3 %",
+            "description": ""
+          },
+          "heineken-fat": {
+            "name": "Heineken, 5,0 %",
+            "description": ""
+          },
+          "krusovice": {
+            "name": "Krusovice, 5,0 %",
+            "description": ""
+          },
+          "ship-ipa-fat": {
+            "name": "A Ship Full of IPA, 5,8 %",
+            "description": ""
+          },
+          "1664-blanc": {
+            "name": "1664 blanc, 5,0 %",
+            "description": ""
+          },
+          "eriksberg": {
+            "name": "Eriksberg Karaktär, 5,4 %",
+            "description": ""
+          }
+        }
+      },
+      "cider-ol-flaska": {
+        "title": "CIDER/ÖL PÅ FLASKA",
+        "note": "",
+        "items": {
+          "briska-blabar": {
+            "name": "Briska, blåbär hallon, 33 cl",
+            "description": ""
+          },
+          "carlsberg-hof": {
+            "name": "Carlsberg Hof, 33 cl",
+            "description": ""
+          },
+          "sol": {
+            "name": "Sol, 33 cl",
+            "description": ""
+          },
+          "sitting-bulldog": {
+            "name": "Sitting Bulldog IPA, 33 cl",
+            "description": ""
+          },
+          "ginger-joe": {
+            "name": "Ginger Joe, 33 cl",
+            "description": ""
+          },
+          "daura-damm": {
+            "name": "Daura Damm, glutenfri, 33 cl",
+            "description": ""
+          },
+          "tuborg-guld": {
+            "name": "Tuborg Guld, 50 cl",
+            "description": ""
+          },
+          "mariestads": {
+            "name": "Mariestads Export, 50 cl",
+            "description": ""
+          },
+          "old-ox": {
+            "name": "Old Ox, 50 cl",
+            "description": ""
+          },
+          "paulaner": {
+            "name": "Paulaner, 50 cl",
+            "description": ""
+          },
+          "kingfisher": {
+            "name": "Kingfisher, indisk, 33 cl",
+            "description": ""
+          },
+          "cobra": {
+            "name": "Cobra, indisk, 66 cl",
+            "description": ""
+          },
+          "smirnoff-ice": {
+            "name": "Smirnoff Ice, 27,5 cl",
+            "description": ""
+          }
+        }
+      },
+      "rott": {
+        "title": "RÖTT",
+        "note": "",
+        "items": {
+          "maximo-tinto": {
+            "name": "Maximo Tinto, Spanien",
+            "description": "Medelfylligt, ganska mjukt vin med mogna tanniner och toner av mynta, lakrits, röda bär som hallon och jordgubbar."
+          },
+          "la-primizia": {
+            "name": "La primizia Vino Rosso, Italien",
+            "description": "Lätt, bärigt med mjuk strävhet och uppiggande syrlighet. Vi bjuds på skogshallon, jordgubbskompott och körsbär i likör samt pinjenöt, ceder, körsbärskärna och kanel i avslutet."
+          },
+          "valpolicella": {
+            "name": "Valpolicella Ripasso, Italien",
+            "description": "Medelfylligt vin med smak av mörk frukt, choklad och lite mandel. Vinet har silkiga tanniner och lång aningens het eftersmak."
+          }
+        }
+      },
+      "vitt": {
+        "title": "VITT",
+        "note": "",
+        "items": {
+          "maximo-blanco": {
+            "name": "Maximo Blanco, Spanien",
+            "description": "Torrt, lätt vin med en aptitretande frisk syra med fruktig smak och inslag av citrus och lite mineral."
+          },
+          "mehrlein-riesling": {
+            "name": "Mehrlein Riesling Dry, Tyskland",
+            "description": "Klassisk riesling med frisk smak av citrus, gröna äpplen, grapefrukt, persika och mineraler."
+          }
+        }
+      },
+      "rose": {
+        "title": "ROSÉ",
+        "note": "",
+        "items": {
+          "barefoot-white-zinfandel": {
+            "name": "Barefoot White Zinfandel, USA",
+            "description": "Frisk och härlig smak av mosade jordgubbar, hallon, solmogna päron och saftig ananas. Ett mycket fruktigt vin med viss sötma och krispigt avslut."
+          },
+          "santiago-assinatura": {
+            "name": "Santiago Assinatura de Familia, Portugal",
+            "description": "Frisk och sötfruktig med en lätt sprits. Inslag av söta jordgubbar, hallon och röda vinbär med en behaglig sötma och läskande syra. Passar till lite kryddiga rätter av fisk eller kyckling."
+          }
+        }
+      },
+      "whiskey-rom-cognac": {
+        "title": "WHISKEY | ROM | COGNAC",
+        "note": "",
+        "items": {
+          "jameson": {
+            "name": "Jameson",
+            "description": ""
+          },
+          "famous-grouse": {
+            "name": "Famous Grouse",
+            "description": ""
+          },
+          "jim-beam": {
+            "name": "Jim Beam",
+            "description": ""
+          },
+          "jack-daniels": {
+            "name": "Jack Daniels",
+            "description": ""
+          },
+          "black-label": {
+            "name": "Black Label",
+            "description": ""
+          },
+          "gronstedt-monopole": {
+            "name": "Grönstedt Monopole",
+            "description": ""
+          },
+          "laphroaig": {
+            "name": "Laphroaig",
+            "description": ""
+          },
+          "macallan": {
+            "name": "Macallan",
+            "description": ""
+          },
+          "zacapa": {
+            "name": "Zacapa",
+            "description": ""
+          },
+          "diplomatico": {
+            "name": "Diplomatico",
+            "description": ""
+          }
+        }
+      }
+    }
+  },
+  "eveningMenu": {
+    "title": "Kvällsmeny",
+    "sections": {
+      "smaratter": {
+        "title": "SMÅRÄTTER",
+        "note": "",
+        "items": {
+          "papadam": {
+            "name": "Papadam, vegansk",
+            "description": "Krispigt linsbröd | mango chutney"
+          },
+          "veg-samosa": {
+            "name": "Veg Samosa, vegansk",
+            "description": "Grönsaksfyllda degknyten | rödkålssallad | tamarind och chili chutney"
+          },
+          "onion-bhaaje": {
+            "name": "Onion Bhaaje",
+            "description": "Friterade lök fritters med en massa härliga örter och kryddor | rödkålssallad | chutney på mynta koriander chili och yoghurt"
+          },
+          "zucchini-cauliflower-pakora": {
+            "name": "Zucchini & Cauliflower Pakora, vegansk",
+            "description": "Friterad zucchini och blomkål i kryddig smet | rödkålssallad | koriander | tamarind och chilichutney"
+          },
+          "chicken-samosa": {
+            "name": "Chicken Samosa",
+            "description": "Två styck kycklingfyllda smördegsknyten | rödkålssallad | mynta- yoghurt chutney"
+          },
+          "chicken-roll": {
+            "name": "Chicken Roll",
+            "description": "Smörstekt paratha | tandoorigrillad kycklingfilé | lök | paprika | rödkålssallad | aioli"
+          },
+          "king-prawn-roll": {
+            "name": "King Prawn Roll",
+            "description": "Smörstekt paratha | smörstekta tigerräkor | lök | paprika | rödkålssallad | aioli"
+          },
+          "chicken-tikka": {
+            "name": "Chicken Tikka",
+            "description": "Smörstekt tandoorigrillad kycklingfilé | lök | paprika. Serveras på gjutjärnspanna"
+          },
+          "seekh-kebab": {
+            "name": "Seekh kebab",
+            "description": "Nötfärs marinerat i lök, vitlök, ingefära och indiska kryddor. Serveras med sallad, mynta, korianderchutney"
+          },
+          "chicken-tikka-naan": {
+            "name": "Chicken Tikka Naan",
+            "description": "Naan fylld med tandoorigrillad kycklingfilé | potatis | chili | koriander | chutney på mynta koriander chili och yoghurt"
+          },
+          "prawn-puri": {
+            "name": "Prawn Puri",
+            "description": "Kryddiga svarta tigerräkor | lök | paprika | smörstekt paratha | mynta och yoghurt chutney"
+          },
+          "king-prawn": {
+            "name": "King Prawn",
+            "description": "Grillade svarta tigerräkor | lök | paprika. Serveras på het gjutjärnspanna"
+          }
+        }
+      },
+      "naan": {
+        "title": "NAAN - TRADITIONELLT INDISKT BRÖD",
+        "note": "",
+        "items": {
+          "plain-naan": {
+            "name": "Plain Naan, vegansk",
+            "description": ""
+          },
+          "garlic-naan": {
+            "name": "Garlic Naan, med vitlök vegansk",
+            "description": ""
+          },
+          "butter-naan": {
+            "name": "Butter Naan, med ghee",
+            "description": ""
+          },
+          "peshwari-naan": {
+            "name": "Peshwari Naan, med mandel och kokosnöt vegansk",
+            "description": ""
+          },
+          "butter-paneer-naan": {
+            "name": "Butter Paneer Naan, med paneer och ghee",
+            "description": ""
+          },
+          "chilli-paneer-naan": {
+            "name": "Chilli paneer Naan, med paneer och chili",
+            "description": ""
+          },
+          "garlic-paneer-naan": {
+            "name": "Garlic Paneer Naan, med paneer och vitlök",
+            "description": ""
+          },
+          "paratha": {
+            "name": "Paratha, stekt i smör",
+            "description": ""
+          }
+        }
+      },
+      "kockens-favoriter": {
+        "title": "KOCKENS FAVORITER",
+        "note": "Alla huvudrätter serveras med pulaoris",
+        "items": {
+          "chicken-lamb-tikka-masala": {
+            "name": "Chicken/Lamb Tikka Masala, mild",
+            "description": "Tandoorigrillad kycklingfilé/lammfilé | smör | grädde | kokos | mandel | russin"
+          },
+          "butter-chicken-lamb": {
+            "name": "Butter Chicken/Lamb, stark",
+            "description": "Tandoorigrillad kycklingfilé/lammfilé | smör | tomat | grädde | koriander"
+          },
+          "hot-chili-chicken-lamb": {
+            "name": "Hot Chili Chicken/Lamb, söt stark",
+            "description": "Tandoorigrillad kycklingfilé/lammfilé | chili | lök | paprika | koriander | sweet chilisås"
+          },
+          "tandoori-chicken-lamb-masala": {
+            "name": "Tandoori Chicken/Lamb Masala, stark",
+            "description": "Tandoorigrillad kycklingfilé eller lamm | yoghurt | tomat | lök | paprika | koriander"
+          },
+          "chicken-lamb-tikka-jalfrezi": {
+            "name": "Chicken/Lamb Tikka Jalfrezi, mycket stark",
+            "description": "Tandoorigrillad kycklingfilé/lammfilé | lök | paprika| chili | koriander"
+          },
+          "chicken-lamb-tikka-karai": {
+            "name": "Chicken/Lamb Tikka Karai, medium stark",
+            "description": "Tandoorigrillad lammfilé i marinad på vitlök i gryta med färska kryddor | lök | paprika | tomat | ingefära | koriander. Serveras på het gjutjärnspanna"
+          },
+          "chicken-lasuni-karai": {
+            "name": "Chicken Lasuni Karai, medium stark",
+            "description": "Tandoorigrillad kycklingfilé i marinad på vitlök i gryta med färska kryddor | lök | paprika | tomat | ingefära | koriander. Serveras på het gjutjärnspanna"
+          },
+          "chicken-lamb-tikka-balti": {
+            "name": "Chicken/Lamb Tikka Balti, stark",
+            "description": "Tandoorigrillad kycklingfilé med baltipaste | grädde | ingefära | vitlök | tomat | koriander | lök | paprika | potatis."
+          },
+          "chicken-lasuni-balti": {
+            "name": "Chicken Lasuni Balti, stark",
+            "description": "Tandoorigrillad kycklingfilé i marinad på vitlök i krämig gryta med baltipaste | grädde | ingefära | vitlök | tomat| koriander | lök | paprika | potatis"
+          }
+        }
+      },
+      "tandoori-sizlar": {
+        "title": "TANDOORI SIZLAR",
+        "note": "Marinerat sedan grillat i lerugn | stekt i smör | lök | paprika. Serveras på het gjutjärnspanna. Serveras med tomat och sweet chilisås. Medium stark.",
+        "items": {
+          "tandoori-chicken-sizlar": {
+            "name": "Tandoori Chicken - kycklingfilé",
+            "description": ""
+          },
+          "chicken-tikka-sizlar": {
+            "name": "Chicken Tikka Sizlar - kycklingfilé",
+            "description": ""
+          },
+          "chicken-lasuni-sizlar": {
+            "name": "Chicken lasuni Sizlar - vitlöksmarinerad kycklingfilé",
+            "description": ""
+          },
+          "lamm-tikka-sizlar": {
+            "name": "Lamm Tikka Sizlar - lammfilé",
+            "description": ""
+          },
+          "king-prawn-sizlar": {
+            "name": "King Prawn Sizlar - svarta tigerräkor",
+            "description": ""
+          },
+          "mix-sizlar": {
+            "name": "Mix Sizlar - kycklingfilé | lammfilé | svarta tigerräkor",
+            "description": ""
+          },
+          "seekh-kebab-sizlar": {
+            "name": "Seekh Kebab",
+            "description": "Nötfärs marinerat i lök, vitlök, ingefära och indiska kryddor. Serveras med mynta, korianderchutney och sizlarsås."
+          }
+        }
+      },
+      "thali": {
+        "title": "THALI",
+        "note": "Traditionell tallrik med tre olika rätter. Naan | Papadam | Sallad | Gulab Jamun",
+        "items": {
+          "kott-thali": {
+            "name": "Kött Thali",
+            "description": "Kockens val av lamm, biff och kyckling. Mild, medium och stark."
+          },
+          "vegetarisk-thali": {
+            "name": "Vegetarisk Thali",
+            "description": "Kockens val av grönsaker och paneer. Mild, medium och stark."
+          }
+        }
+      },
+      "birjani": {
+        "title": "BIRJANI",
+        "note": "Risrätt med färska kryddor | örter | koriander | lök | paprika. Serveras med chutney på mynta koriander chili och yoghurt. Medium stark.",
+        "items": {
+          "lamb-birjani": {
+            "name": "Lamb Birjani - stekt lammfilé",
+            "description": ""
+          },
+          "chicken-tikka-birjani": {
+            "name": "Chicken Tikka Birjani - grillad kycklingfilé",
+            "description": ""
+          },
+          "king-prawn-birjani": {
+            "name": "King Prawn Birjani - grillade svarta tigerräkor",
+            "description": ""
+          }
+        }
+      },
+      "curries": {
+        "title": "CURRIES",
+        "note": "Kycklingfilé 175 kr | Paneer 175 kr | Tofu 170 kr | Biff 189 kr | Lammstek 199 kr | Grillad lammfilé 235 kr",
+        "items": {
+          "madras": {
+            "name": "Madras, mycket stark",
+            "description": "Sydindisk gryta | soltorkad chili | koriander | citron"
+          },
+          "vindaloo": {
+            "name": "Vindaloo, extremt stark",
+            "description": "Husets starkaste gryta | soltorkad chili | Vindaloo paste | koriander"
+          },
+          "balti-curry": {
+            "name": "Balti, stark",
+            "description": "Krämig gryta med baltipaste | grädde | ingefära | vitlök | tomat | koriander | lök | paprika | potatis"
+          },
+          "karai-curry": {
+            "name": "Karai, medium stark",
+            "description": "Gryta med färska kryddor | lök | paprika | tomat | ingefära | koriander. Serveras på het gjutjärnspanna"
+          },
+          "lime-curry": {
+            "name": "Lime Curry, medium stark",
+            "description": "Gryta med färska limeblad | citron | lök | paprika | kokosmjölk"
+          },
+          "rogan-josh": {
+            "name": "Rogan Josh, medium stark",
+            "description": "Gryta med tomat | yoghurt | lök | paprika"
+          },
+          "curry-mango": {
+            "name": "Curry Mango, medium stark",
+            "description": "Krämig gryta med färsk mango | grädde | smör"
+          }
+        }
+      },
+      "king-prawn": {
+        "title": "KING PRAWN - SVARTA TIGERRÄKOR",
+        "note": "",
+        "items": {
+          "king-prawn-karai": {
+            "name": "King Prawn Karai, medium stark",
+            "description": "Gryta med färska kryddor | lök | paprika | tomat | ingefära | koriander. Serveras på het gjutjärnspanna"
+          },
+          "king-prawn-balti": {
+            "name": "King Prawn Balti, stark",
+            "description": "Krämig gryta med baltipaste | grädde | ingefära | vitlök | tomat| koriander | lök | paprika | potatis"
+          },
+          "tandoori-king-prawn-tikka-masala": {
+            "name": "Tandoori King Prawn Tikka Masala, mild",
+            "description": "Tandoorigrillade svarta tigerräkor | smör | grädde | kokos | mandel | russin"
+          },
+          "king-prawn-madras": {
+            "name": "King Prawn Madras, mycket stark",
+            "description": "Sydindisk gryta | soltorkad chili | koriander | citron"
+          },
+          "king-prawn-butter": {
+            "name": "King Prawn Butter, stark",
+            "description": "Tandoorigrillade svarta tigerräkor | smör | tomat | grädde | koriander"
+          }
+        }
+      },
+      "vegetariskt": {
+        "title": "VEGETARISKT",
+        "note": "",
+        "items": {
+          "daal-makhni": {
+            "name": "Daal Makhni, medium stark",
+            "description": "Svarta linser i smör | grädde | tomat | koriander"
+          },
+          "tarka-daal": {
+            "name": "Tarka Daal, medium stark vegansk",
+            "description": "Stekta gula linser | vitlök | koriander"
+          },
+          "aloo-gobi": {
+            "name": "Aloo Gobi, medium stark vegansk",
+            "description": ""
+          },
+          "sag-aloo": {
+            "name": "Sag Aloo, medium stark vegansk",
+            "description": "Spenat | potatis | färska kryddor | koriander"
+          },
+          "pakora-karai": {
+            "name": "Pakora Karai, medium stark vegansk",
+            "description": "Friterad zucchini & blomkål | lök | paprika | tomat. Serveras på gjutjärnspanna"
+          },
+          "mix-veg-karai": {
+            "name": "Mix Veg Karai, medium stark vegansk",
+            "description": "Säsongens grönsaker | lök | paprika | curry. Currygryta med potatis | blomkål | lök | paprika | koriander"
+          },
+          "palak-paneer": {
+            "name": "Palak Paneer, medium stark",
+            "description": "Spenat | hemgjord paneer | smör | koriander. Veganskt alternativ: tofu"
+          },
+          "paneer-masala": {
+            "name": "Paneer Masala, mild",
+            "description": "Hemgjord paneer | smör | grädde | kokos | mandel | russin. Alternativ: tofu"
+          },
+          "paneer-butter": {
+            "name": "Paneer Butter, stark",
+            "description": "Hemgjord paneer | smör | tomat | grädde| koriander. Alternativ: tofu"
+          },
+          "paneer-kofta": {
+            "name": "Paneer Kofta, medium stark",
+            "description": "Kryddiga hemgjorda spenatbollar fyllda med paneer i currysås"
+          }
+        }
+      },
+      "tillbehor": {
+        "title": "TILLBEHÖR",
+        "note": "",
+        "items": {
+          "raita": {
+            "name": "Raita",
+            "description": ""
+          },
+          "mango-chutney": {
+            "name": "Mango chutney | tamarind - chili chutney",
+            "description": ""
+          },
+          "mynta-yoghurt-chutney": {
+            "name": "Mynta - yoghurt chutney",
+            "description": ""
+          },
+          "mynta-koriander-chutney": {
+            "name": "Mynta - koriander chutney",
+            "description": ""
+          },
+          "chili-lime-pickles": {
+            "name": "Chili pickles | Lime pickles",
+            "description": ""
+          },
+          "extra-ris": {
+            "name": "Extra ris",
+            "description": ""
+          },
+          "side-sallad": {
+            "name": "Side sallad",
+            "description": "Rödkål | koriander | morot | citron"
+          },
+          "extra-sas": {
+            "name": "Extra sås",
+            "description": "Masala - mild | Curry - medium stark | Madras - stark"
+          }
+        }
+      },
+      "efter-maten": {
+        "title": "EFTER MATEN",
+        "note": "",
+        "items": {
+          "gulab-jamun": {
+            "name": "Gulab Jamun",
+            "description": "Friterad degboll i rosensirap | vaniljglass | bär"
+          },
+          "malai-kulfi": {
+            "name": "Malai Kulfi",
+            "description": "Med grädde | pistage | kardemumma | kanel"
+          },
+          "chokladkaka": {
+            "name": "Chokladkaka",
+            "description": "Med vaniljglass | bär"
+          },
+          "vaniljglass": {
+            "name": "Vaniljglass",
+            "description": "Med Nutella | hallon | mynta"
+          }
+        }
+      }
+    }
+  },
+  "catering": {
+    "title": "Catering",
+    "heading1": "Vi erbjuder catering för alla tillfällen!",
+    "heading2": "Både till privatpersoner och företag.",
+    "para1": "Företagslunch, Event, Mingelkväll, Bröllop, Jul och Nyår, Studentfest, Vegetarisk buffé, Högtidsfester av alla slag.",
+    "para2": "Allt från sensationella bufféer till middagar för stora och små sällskap.",
+    "cta": "Välkommen att kontakta oss så diskuterar vi fram något som passar just era önskemål!"
+  },
+  "about": {
+    "title": "Om oss"
+  },
+  "findUs": {
+    "title": "Hitta hit"
+  },
+  "bookTable": {
+    "title": "Boka bord"
+  },
+  "takeaway": {
+    "title": "Takeaway"
+  },
+  "delivery": {
+    "title": "Leverans"
+  }
+}
