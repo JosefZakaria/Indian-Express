@@ -2,7 +2,6 @@ import { notFound } from 'next/navigation';
 import { getDictionary } from '@/lib/i18n/get-dictionary';
 import { locales } from '@/lib/i18n/config';
 import Navbar from '@/components/Navbar';
-import HeaderLogo from '@/components/HeaderLogo';
 import PageTransition from '@/components/PageTransition';
 import ScrollRevealObserver from '@/components/ScrollRevealObserver';
 
@@ -20,8 +19,7 @@ export default async function LocaleLayout({
     <>
       <ScrollRevealObserver />
       <Navbar locale={locale} dict={dict} />
-      <HeaderLogo locale={locale} dict={dict} />
-      <main className="min-h-screen bg-baby-pink pt-28 pl-4 pr-4 pb-4">
+      <main className="min-h-screen bg-baby-pink pl-4 pr-4 pb-4">
         <PageTransition>{children}</PageTransition>
       </main>
     </>

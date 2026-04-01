@@ -124,7 +124,7 @@ export const EVENING_MENU_SECTIONS: EveningMenuSection[] = [
       { id: 'raita', price: 30 },
       { id: 'mango-chutney', price: 20 },
       { id: 'mynta-yoghurt-chutney', price: 10 },
-      { id: 'mynta-koriander-chutney', price: 20 },
+
       { id: 'chili-lime-pickles', price: 20 },
       { id: 'extra-ris', price: 25 },
       { id: 'side-sallad', price: 30 },

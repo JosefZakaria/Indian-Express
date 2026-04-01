@@ -6,10 +6,9 @@
         "note": "",
         "items": {
           "cola-mix": { "name": "Cola | Cola zero | Fanta | Sprite | Pepsi Max", "description": "" },
-          "juice-mix": { "name": "Juice | Mango | Passion | Tranbär | Apelsin", "description": "" },
+          "juice-mix": { "name": "Juice - Mango | Passion | Tranbär | Apelsin", "description": "" },
           "mango-lassi": { "name": "Mango lassi - yoghurt | mangopure", "description": "" },
-          "vegan-mango-lassi": { "name": "Vegan Mango Lassi - havregurt | mangopure | mangojuice", "description": "" },
-          "redbull": { "name": "Redbull, 25 cl", "description": "" }
+          "vegan-mango-lassi": { "name": "Vegan Mango Lassi - havregurt | mangopure | mangojuice", "description": "" }
         }
       },
       "alkoholfri-ol": {
@@ -97,22 +96,6 @@
             "description": "Frisk och sötfruktig med en lätt sprits. Inslag av söta jordgubbar, hallon och röda vinbär med en behaglig sötma och läskande syra. Passar till lite kryddiga rätter av fisk eller kyckling."
           }
         }
-      },
-      "whiskey-rom-cognac": {
-        "title": "WHISKEY | ROM | COGNAC",
-        "note": "",
-        "items": {
-          "jameson": { "name": "Jameson", "description": "" },
-          "famous-grouse": { "name": "Famous Grouse", "description": "" },
-          "jim-beam": { "name": "Jim Beam", "description": "" },
-          "jack-daniels": { "name": "Jack Daniels", "description": "" },
-          "black-label": { "name": "Black Label", "description": "" },
-          "gronstedt-monopole": { "name": "Grönstedt Monopole", "description": "" },
-          "laphroaig": { "name": "Laphroaig", "description": "" },
-          "macallan": { "name": "Macallan", "description": "" },
-          "zacapa": { "name": "Zacapa", "description": "" },
-          "diplomatico": { "name": "Diplomatico", "description": "" }
-        }
       }
     }
   },
@@ -196,7 +179,7 @@
         }
       },
       "curries": {
-        "title": "CURRIES",
+        "title": "CURRYRÄTTER",
         "note": "Kycklingfilé 175 kr | Paneer 175 kr | Tofu 170 kr | Biff 189 kr | Lammstek 199 kr | Grillad lammfilé 235 kr",
         "items": {
           "madras": { "name": "Madras, mycket stark", "description": "Sydindisk gryta | soltorkad chili | koriander | citron" },
@@ -240,9 +223,9 @@
         "note": "",
         "items": {
           "raita": { "name": "Raita", "description": "" },
-          "mango-chutney": { "name": "Mango chutney | tamarind - chili chutney", "description": "" },
+          "mango-chutney": { "name": "Mango chutney", "description": "" },
           "mynta-yoghurt-chutney": { "name": "Mynta - yoghurt chutney", "description": "" },
-          "mynta-koriander-chutney": { "name": "Mynta - koriander chutney", "description": "" },
+
           "chili-lime-pickles": { "name": "Chili pickles | Lime pickles", "description": "" },
           "extra-ris": { "name": "Extra ris", "description": "" },
           "side-sallad": { "name": "Side sallad", "description": "Rödkål | koriander | morot | citron" },
@@ -253,8 +236,8 @@
         "title": "EFTER MATEN",
         "note": "",
         "items": {
-          "gulab-jamun": { "name": "Gulab Jamun", "description": "Friterad degboll i rosensirap | vaniljglass | bär" },
-          "malai-kulfi": { "name": "Malai Kulfi", "description": "Med grädde | pistage | kardemumma | kanel" },
+          "gulab-jamun": { "name": "Gulab Jamun", "description": "Friterad degboll i rosensirap | vaniljglass" },
+          "malai-kulfi": { "name": "Malai Kulfi", "description": "Med pistage | kardemumma | kanel" },
           "chokladkaka": { "name": "Chokladkaka", "description": "Med vaniljglass | bär" },
           "vaniljglass": { "name": "Vaniljglass", "description": "Med Nutella | hallon | mynta" }
         }

@@ -76,6 +76,14 @@ body {
 }
 
 /* Scroll-triggered reveal: elements fade in and move up when they enter the viewport */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
 .scroll-reveal {
   opacity: 0;
   transform: translateY(20px);

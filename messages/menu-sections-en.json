@@ -6,10 +6,9 @@
         "note": "",
         "items": {
           "cola-mix": { "name": "Cola | Cola zero | Fanta | Sprite | Pepsi Max", "description": "" },
-          "juice-mix": { "name": "Juice | Mango | Passion | Cranberry | Orange", "description": "" },
+          "juice-mix": { "name": "Juice - Mango | Passion | Cranberry | Orange", "description": "" },
           "mango-lassi": { "name": "Mango lassi - yoghurt | mango purée", "description": "" },
-          "vegan-mango-lassi": { "name": "Vegan Mango Lassi - oat yoghurt | mango purée | mango juice", "description": "" },
-          "redbull": { "name": "Red Bull, 25 cl", "description": "" }
+          "vegan-mango-lassi": { "name": "Vegan Mango Lassi - oat yoghurt | mango purée | mango juice", "description": "" }
         }
       },
       "alkoholfri-ol": {
@@ -96,22 +95,6 @@
             "name": "Santiago Assinatura de Familia, Portugal",
             "description": "Fresh and sweet-fruity with a slight spritz. Notes of sweet strawberries, raspberries and red currants with a pleasant sweetness and refreshing acidity. Pairs well with mildly spiced fish or chicken dishes."
           }
-        }
-      },
-      "whiskey-rom-cognac": {
-        "title": "WHISKEY | RUM | COGNAC",
-        "note": "",
-        "items": {
-          "jameson": { "name": "Jameson", "description": "" },
-          "famous-grouse": { "name": "Famous Grouse", "description": "" },
-          "jim-beam": { "name": "Jim Beam", "description": "" },
-          "jack-daniels": { "name": "Jack Daniels", "description": "" },
-          "black-label": { "name": "Black Label", "description": "" },
-          "gronstedt-monopole": { "name": "Grönstedt Monopole", "description": "" },
-          "laphroaig": { "name": "Laphroaig", "description": "" },
-          "macallan": { "name": "Macallan", "description": "" },
-          "zacapa": { "name": "Zacapa", "description": "" },
-          "diplomatico": { "name": "Diplomatico", "description": "" }
         }
       }
     }
@@ -240,9 +223,9 @@
         "note": "",
         "items": {
           "raita": { "name": "Raita", "description": "" },
-          "mango-chutney": { "name": "Mango chutney | tamarind - chilli chutney", "description": "" },
+          "mango-chutney": { "name": "Mango chutney", "description": "" },
           "mynta-yoghurt-chutney": { "name": "Mint - yoghurt chutney", "description": "" },
-          "mynta-koriander-chutney": { "name": "Mint - coriander chutney", "description": "" },
+
           "chili-lime-pickles": { "name": "Chilli pickles | Lime pickles", "description": "" },
           "extra-ris": { "name": "Extra rice", "description": "" },
           "side-sallad": { "name": "Side salad", "description": "Red cabbage | coriander | carrot | lemon" },
@@ -253,8 +236,8 @@
         "title": "DESSERTS",
         "note": "",
         "items": {
-          "gulab-jamun": { "name": "Gulab Jamun", "description": "Fried dough balls in rose syrup | vanilla ice cream | berries" },
-          "malai-kulfi": { "name": "Malai Kulfi", "description": "With cream | pistachio | cardamom | cinnamon" },
+          "gulab-jamun": { "name": "Gulab Jamun", "description": "Fried dough balls in rose syrup | vanilla ice cream" },
+          "malai-kulfi": { "name": "Malai Kulfi", "description": "With pistachio | cardamom | cinnamon" },
           "chokladkaka": { "name": "Chocolate cake", "description": "With vanilla ice cream | berries" },
           "vaniljglass": { "name": "Vanilla ice cream", "description": "With Nutella | raspberry | mint" }
         }

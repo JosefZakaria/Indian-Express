@@ -16,7 +16,6 @@ export const DRINK_MENU_SECTIONS: DrinkMenuSection[] = [
       { id: 'juice-mix', price: 40 },
       { id: 'mango-lassi', price: 50 },
       { id: 'vegan-mango-lassi', price: 50 },
-      { id: 'redbull', price: 65 },
     ],
   },
   {
@@ -76,21 +75,6 @@ export const DRINK_MENU_SECTIONS: DrinkMenuSection[] = [
     items: [
       { id: 'barefoot-white-zinfandel', price: '85/359' },
       { id: 'santiago-assinatura', price: '95/395' },
-    ],
-  },
-  {
-    id: 'whiskey-rom-cognac',
-    items: [
-      { id: 'jameson', price: 26 },
-      { id: 'famous-grouse', price: 26 },
-      { id: 'jim-beam', price: 26 },
-      { id: 'jack-daniels', price: 28 },
-      { id: 'black-label', price: 30 },
-      { id: 'gronstedt-monopole', price: 30 },
-      { id: 'laphroaig', price: 32 },
-      { id: 'macallan', price: 37 },
-      { id: 'zacapa', price: 37 },
-      { id: 'diplomatico', price: 37 },
     ],
   },
 ];
