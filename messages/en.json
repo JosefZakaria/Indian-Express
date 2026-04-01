@@ -1032,15 +1032,11 @@
             "description": ""
           },
           "mango-chutney": {
-            "name": "Mango chutney | tamarind - chilli chutney",
+            "name": "Mango chutney",
             "description": ""
           },
           "mynta-yoghurt-chutney": {
             "name": "Mint - yoghurt chutney",
-            "description": ""
-          },
-          "mynta-koriander-chutney": {
-            "name": "Mint - coriander chutney",
             "description": ""
           },
           "chili-lime-pickles": {
@@ -1067,11 +1063,11 @@
         "items": {
           "gulab-jamun": {
             "name": "Gulab Jamun",
-            "description": "Fried dough balls in rose syrup | vanilla ice cream | berries"
+            "description": "Fried dough balls in rose syrup | vanilla ice cream"
           },
           "malai-kulfi": {
             "name": "Malai Kulfi",
-            "description": "With cream | pistachio | cardamom | cinnamon"
+            "description": "With pistachio | cardamom | cinnamon"
           },
           "chokladkaka": {
             "name": "Chocolate cake",

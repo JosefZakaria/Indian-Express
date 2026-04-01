@@ -33,12 +33,19 @@ export default async function DrinkMenuPage({
               ) : null}
               <ul className="space-y-2">
                 {section.items.map((item) => {
-                  const itemName = t(dict, `drinkMenu.sections.${section.id}.items.${item.id}.name`);
+                  const rawName = t(dict, `drinkMenu.sections.${section.id}.items.${item.id}.name`);
                   const itemDesc = tOptional(dict, `drinkMenu.sections.${section.id}.items.${item.id}.description`);
+                  const veganMatch = rawName.match(/,?\s*(vegansk|vegan)\s*$/i);
+                  const itemName = veganMatch ? rawName.replace(/,?\s*(vegansk|vegan)\s*$/i, '') : rawName;
                   return (
                     <li key={item.id} className="border-b border-gray-200/80 pb-2 last:border-0 last:pb-0">
                       <div className="flex flex-wrap items-baseline justify-between gap-2">
-                        <span className="text-lg font-semibold text-gray-800">{itemName}</span>
+                        <span className="text-lg font-semibold text-gray-800">
+                          {itemName}
+                          {veganMatch && (
+                            <span className="italic text-burgundy"> - {veganMatch[1]}</span>
+                          )}
+                        </span>
                         <span className="text-lg text-gray-700">{item.price} kr</span>
                       </div>
                       {itemDesc ? (

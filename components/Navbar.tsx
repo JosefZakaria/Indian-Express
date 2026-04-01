@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { t } from '@/lib/utils';
@@ -23,35 +22,12 @@ const navItems = [
   { labelKey: 'nav.home', href: '', cta: false },
 ];
 
-function MenuIcon({ open }: { open: boolean }) {
-  return (
-    <span className="relative flex h-6 w-7 flex-col justify-center">
-      <span
-        className={`block h-0.5 w-full rounded-full bg-current transition-all duration-200 ${
-          open ? 'translate-y-[7px] rotate-45' : ''
-        }`}
-      />
-      <span
-        className={`mt-2 block h-0.5 w-6 rounded-full bg-current transition-all duration-200 ${
-          open ? 'opacity-0 scale-x-0' : ''
-        }`}
-      />
-      <span
-        className={`mt-2 block h-0.5 w-full rounded-full bg-current transition-all duration-200 ${
-          open ? '-translate-y-[7px] -rotate-45' : ''
-        }`}
-      />
-    </span>
-  );
-}
-
 type NavbarProps = {
   locale: string;
   dict: Record<string, unknown>;
 };
 
 export default function Navbar({ locale, dict }: NavbarProps) {
-  const [menuOpen, setMenuOpen] = useState(false);
   const pathname = usePathname();
   const basePath = pathname?.split('/').slice(0, 2).join('/') || `/${locale}`;
 
@@ -60,12 +36,10 @@ export default function Navbar({ locale, dict }: NavbarProps) {
     return `${basePath}${item.href}`;
   };
 
-  const closeMenu = () => setMenuOpen(false);
-
   const isHome = pathname === '/sv' || pathname === '/en';
+
   const scrollToContent = (e: React.MouseEvent) => {
     e.preventDefault();
-    closeMenu();
     document.getElementById('content')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     window.history.replaceState(null, '', `${basePath}#content`);
   };
@@ -75,89 +49,68 @@ export default function Navbar({ locale, dict }: NavbarProps) {
   const langHref = `/${otherLocale}${pathWithoutLocale || ''}`;
 
   return (
-    <>
-      <button
-        key={pathname}
-        type="button"
-        onClick={() => setMenuOpen((v) => !v)}
-        className="fixed right-5 top-5 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-burgundy text-white shadow-[0_4px_20px_rgba(132,55,62,0.35)] transition-all duration-200 hover:shadow-[0_6px_24px_rgba(132,55,62,0.4)] hover:bg-burgundy/95 focus:outline-none focus:ring-2 focus:ring-burgundy focus:ring-offset-2 focus:ring-offset-baby-pink animate-header-in"
-        aria-label={t(dict, 'nav.menu')}
-        aria-expanded={menuOpen}
-      >
-        <MenuIcon open={menuOpen} />
-      </button>
+    <nav className="sticky top-0 z-50 w-full animate-header-in">
+      <div className="overflow-x-auto scrollbar-hide">
+        <ul className="flex items-center justify-center gap-1 px-4 py-3 whitespace-nowrap min-w-max mx-auto">
+          {navItems.map((item) => {
+            const href = getHref(item);
+            const isActive = !item.cta && pathname === href;
 
-      {menuOpen && (
-        <>
-          <div
-            className="fixed inset-0 z-40 bg-gray-900/60 backdrop-blur-sm animate-nav-overlay"
-            onClick={closeMenu}
-            aria-hidden
-          />
-          <div
-            className="fixed inset-0 z-50 flex items-center justify-center p-6 animate-nav-content"
-            role="dialog"
-            aria-label={t(dict, 'nav.menu')}
-            onClick={closeMenu}
-          >
-            <nav
-              className="flex flex-col items-center gap-1 text-center font-serif tracking-wide"
-              onClick={(e) => e.stopPropagation()}
-            >
-              <ul className="flex flex-col gap-0.5">
-                {navItems.map((item, index) => (
-                  <li
-                    key={item.labelKey}
-                    className="animate-nav-item"
-                    style={{ animationDelay: `${index * 45}ms` }}
+            if (item.cta) {
+              return (
+                <li key={item.labelKey}>
+                  <a
+                    href={item.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block px-3 py-1.5 text-lg font-medium text-burgundy/80 transition hover:text-burgundy"
                   >
-                    {item.cta ? (
-                      <a
-                        href={item.href}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block px-6 py-3 text-xl font-medium text-white/95 transition hover:text-white hover:underline underline-offset-4"
-                        onClick={closeMenu}
-                      >
-                        {t(dict, item.labelKey)}
-                      </a>
-                    ) : item.href === '#content' && isHome ? (
-                      <button
-                        type="button"
-                        className="block w-full px-6 py-3 text-xl font-medium text-white/95 transition hover:text-white hover:underline underline-offset-4 text-center"
-                        onClick={scrollToContent}
-                      >
-                        {t(dict, item.labelKey)}
-                      </button>
-                    ) : (
-                      <Link
-                        href={getHref(item)}
-                        className="block px-6 py-3 text-xl font-medium text-white/95 transition hover:text-white hover:underline underline-offset-4"
-                        onClick={closeMenu}
-                      >
-                        {t(dict, item.labelKey)}
-                      </Link>
-                    )}
-                  </li>
-                ))}
-              </ul>
-              <div
-                className="animate-nav-item flex flex-col items-center"
-                style={{ animationDelay: `${navItems.length * 45}ms` }}
-              >
-                <span className="my-3 h-px w-12 bg-white/40" aria-hidden />
+                    {t(dict, item.labelKey)}
+                  </a>
+                </li>
+              );
+            }
+
+            if (item.href === '#content' && isHome) {
+              return (
+                <li key={item.labelKey}>
+                  <button
+                    type="button"
+                    className="block px-3 py-1.5 text-lg font-medium text-burgundy/80 transition hover:text-burgundy"
+                    onClick={scrollToContent}
+                  >
+                    {t(dict, item.labelKey)}
+                  </button>
+                </li>
+              );
+            }
+
+            return (
+              <li key={item.labelKey}>
                 <Link
-                  href={langHref}
-                  className="block px-6 py-2 text-lg text-white/90 transition hover:text-white hover:underline underline-offset-4"
-                  onClick={closeMenu}
+                  href={href}
+                  className={`block px-3 py-1.5 text-lg font-medium transition ${
+                    isActive
+                      ? 'text-burgundy underline underline-offset-4'
+                      : 'text-burgundy/80 hover:text-burgundy'
+                  }`}
                 >
-                  {locale === 'sv' ? 'English (EN)' : 'Svenska (SV)'}
+                  {t(dict, item.labelKey)}
                 </Link>
-              </div>
-            </nav>
-          </div>
-        </>
-      )}
-    </>
+              </li>
+            );
+          })}
+
+          <li className="pl-2 ml-2 border-l border-burgundy/30">
+            <Link
+              href={langHref}
+              className="block px-3 py-1.5 text-lg font-medium text-burgundy/60 transition hover:text-burgundy"
+            >
+              {locale === 'sv' ? 'EN' : 'SV'}
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
   );
 }

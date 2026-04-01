@@ -223,9 +223,9 @@
         "note": "",
         "items": {
           "raita": { "name": "Raita", "description": "" },
-          "mango-chutney": { "name": "Mango chutney | tamarind - chilli chutney", "description": "" },
+          "mango-chutney": { "name": "Mango chutney", "description": "" },
           "mynta-yoghurt-chutney": { "name": "Mint - yoghurt chutney", "description": "" },
-          "mynta-koriander-chutney": { "name": "Mint - coriander chutney", "description": "" },
+
           "chili-lime-pickles": { "name": "Chilli pickles | Lime pickles", "description": "" },
           "extra-ris": { "name": "Extra rice", "description": "" },
           "side-sallad": { "name": "Side salad", "description": "Red cabbage | coriander | carrot | lemon" },
@@ -236,8 +236,8 @@
         "title": "DESSERTS",
         "note": "",
         "items": {
-          "gulab-jamun": { "name": "Gulab Jamun", "description": "Fried dough balls in rose syrup | vanilla ice cream | berries" },
-          "malai-kulfi": { "name": "Malai Kulfi", "description": "With cream | pistachio | cardamom | cinnamon" },
+          "gulab-jamun": { "name": "Gulab Jamun", "description": "Fried dough balls in rose syrup | vanilla ice cream" },
+          "malai-kulfi": { "name": "Malai Kulfi", "description": "With pistachio | cardamom | cinnamon" },
           "chokladkaka": { "name": "Chocolate cake", "description": "With vanilla ice cream | berries" },
           "vaniljglass": { "name": "Vanilla ice cream", "description": "With Nutella | raspberry | mint" }
         }
