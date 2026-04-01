@@ -14,7 +14,7 @@ export default async function DrinkMenuPage({
   return (
     <div className="mx-auto max-w-2xl px-4 py-8">
       <h1
-        className="mb-8 text-4xl font-bold text-gray-800 scroll-reveal"
+        className="mb-8 text-center text-4xl font-bold text-gray-800 scroll-reveal"
         data-scroll-reveal
       >
         {t(dict, 'drinkMenu.title')}
@@ -29,7 +29,7 @@ export default async function DrinkMenuPage({
                 {t(dict, `drinkMenu.sections.${section.id}.title`)}
               </h2>
               {sectionNote ? (
-                <p className="mb-4 italic text-burgundy">{sectionNote}</p>
+                <p className="mb-4 text-right italic text-burgundy">{sectionNote}</p>
               ) : null}
               <ul className="space-y-2">
                 {section.items.map((item) => {
